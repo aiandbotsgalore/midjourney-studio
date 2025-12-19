@@ -1,0 +1,66 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+venv_new/
+env/
+ENV/
+
+# Secrets & Environment
+.streamlit/secrets.toml
+.env
+*.key
+*.pem
+
+# Logs
+logs/
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Backup files
+*.backup
+app.py.backup
+app_old_duplicate.py
+app_clean_part*.txt
+
+# Temp files
+*.tmp
+.pytest_cache/
+.coverage
+
+# Build artifacts
+*.spec
+*.exe
+
+# Workspace files
+*.code-workspace

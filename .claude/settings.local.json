@@ -1,0 +1,40 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dir:*)",
+      "Bash(python -m pytest:*)",
+      "Bash(venvScriptspython.exe -m pytest tests/test_error_handler.py -v)",
+      "Bash(python:*)",
+      "Bash(ls:*)",
+      "Bash(streamlit run:*)",
+      "Bash(where:*)",
+      "Bash(\"D:\\Miniconda3\\Scripts\\streamlit.exe\" run app.py)",
+      "Bash(\"D:\\Miniconda3\\python.exe\" -c \"import sys; sys.path.insert(0, ''.''); from midjourney_studio.api import MidjourneyAPI; print(''Imports OK'')\")",
+      "Bash(\"D:\\Miniconda3\\python.exe\" -m py_compile app.py)",
+      "Bash(.venvScriptsactivate)",
+      "Bash(\".\\venv\\Scripts\\python.exe\" --version)",
+      "Bash(\".\\venv\\Scripts\\python.exe\" -m streamlit run app.py)",
+      "Bash(start http://localhost:8502)",
+      "Bash(\".\\venv\\Scripts\\python.exe\" -c \"import onnxruntime as ort; print(ort.get_available_providers())\")",
+      "Bash(\"./.venv/Scripts/python.exe\" -c \"import onnxruntime as ort; print(ort.get_available_providers())\")",
+      "Bash(\"./.venv/Scripts/python.exe\" -m pip uninstall -y onnxruntime onnxruntime-gpu)",
+      "Bash(\"./.venv/Scripts/python.exe\" -m pip install onnxruntime-gpu --no-cache-dir)",
+      "Bash(\"./.venv/Scripts/python.exe\":*)",
+      "Bash(tasklist:*)",
+      "Bash(\"./.venv/Scripts/python.exe\" facefusion.py run --ui-layouts default --open-browser)",
+      "Bash(start http://localhost:7860)",
+      "Bash(dir /B \"C:\\\\midjourney-studio - Copy\")",
+      "Bash(.venvScriptspython.exe -m streamlit run app.py)",
+      "Bash(\"C:\\\\midjourney-studio - Copy\\\\venv\\\\Scripts\\\\python.exe\" -m streamlit run app.py)",
+      "Bash(\"C:\\\\midjourney-studio - Copy\\\\venv\\\\Scripts\\\\python.exe\" -m pip install:*)",
+      "Bash(\"C:\\\\midjourney-studio - Copy\\\\venv\\\\Scripts\\\\python.exe\" -c \"\nimport google.generativeai as genai\n\napi_key = ''AIzaSyA-HlnqENZqu6x4IuQ06gJzDa41jLFvJGc''\n\ntry:\n    genai.configure\\(api_key=api_key\\)\n    model = genai.GenerativeModel\\(''gemini-pro''\\)\n    response = model.generate_content\\(''Say hello''\\)\n    print\\(''✅ API KEY IS VALID AND WORKING!''\\)\n    print\\(f''Test response: {response.text[:100]}''\\)\nexcept Exception as e:\n    print\\(f''❌ API KEY FAILED: {e}''\\)\n\")",
+      "Bash(\"C:\\\\midjourney-studio - Copy\\\\venv\\\\Scripts\\\\python.exe\" -c \"\nimport google.generativeai as genai\n\napi_key = ''AIzaSyA-HlnqENZqu6x4IuQ06gJzDa41jLFvJGc''\n\ntry:\n    genai.configure\\(api_key=api_key\\)\n    # Try listing models to see if API key is valid\n    models = genai.list_models\\(\\)\n    print\\(''API KEY IS VALID''\\)\n    print\\(''Available models:''\\)\n    for model in models:\n        print\\(f''  - {model.name}''\\)\n        break\nexcept Exception as e:\n    print\\(f''API KEY FAILED: {str\\(e\\)[:200]}''\\)\n\")",
+      "Bash(\"C:\\\\midjourney-studio - Copy\\\\venv\\\\Scripts\\\\python.exe\" -c \"\nimport google.generativeai as genai\n\napi_key = ''AIzaSyA-HlnqENZqu6x4IuQ06gJzDa41jLFvJGc''\n\ntry:\n    genai.configure\\(api_key=api_key\\)\n    \n    # List all available models\n    models = list\\(genai.list_models\\(\\)\\)\n    \n    print\\(''TOTAL MODELS AVAILABLE:'', len\\(models\\)\\)\n    print\\(''''\\)\n    print\\(''Generative models that support generateContent:''\\)\n    \n    found_generative = False\n    for model in models:\n        if ''generateContent'' in model.supported_generation_methods:\n            print\\(f''  - {model.name}''\\)\n            found_generative = True\n    \n    if not found_generative:\n        print\\(''  \\(No generative models found - API key may have restrictions\\)''\\)\n        \nexcept Exception as e:\n    print\\(f''Error: {str\\(e\\)[:300]}''\\)\n\")",
+      "Bash(\"C:\\\\midjourney-studio - Copy\\\\venv\\\\Scripts\\\\python.exe\" -c \"\nimport google.generativeai as genai\n\napi_key = ''AIzaSyA-HlnqENZqu6x4IuQ06gJzDa41jLFvJGc''\n\ntry:\n    genai.configure\\(api_key=api_key\\)\n    model = genai.GenerativeModel\\(''gemini-2.5-flash''\\)\n    response = model.generate_content\\(''Say hello in 3 words''\\)\n    print\\(''SUCCESS - API KEY WORKS!''\\)\n    print\\(f''Test response: {response.text}''\\)\nexcept Exception as e:\n    print\\(f''FAILED: {str\\(e\\)[:300]}''\\)\n\")",
+      "Bash(git init:*)",
+      "Bash(git add:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

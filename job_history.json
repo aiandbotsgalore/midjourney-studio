@@ -1,0 +1,4632 @@
+[
+  {
+    "code": 422,
+    "error": "Invalid request",
+    "errorDetails": "No start frame provided",
+    "jobid": "j1218193921301245997v-u2163-c996991021718179852-bot:midjourney",
+    "response": {
+      "author": {
+        "avatar": "f6ce562a6b4979c4b1cbc5b436d3be76",
+        "avatar_decoration_data": null,
+        "bot": true,
+        "clan": null,
+        "discriminator": "9282",
+        "public_flags": 589824,
+        "username": "Midjourney Bot",
+        "collectibles": null,
+        "display_name_styles": null,
+        "global_name": null,
+        "id": "936929561302675456",
+        "primary_guild": null
+      },
+      "nonce": "1218193921301245997",
+      "pinned": false,
+      "position": 0,
+      "timestamp": "2025-12-18T19:39:23.582000+00:00",
+      "tts": false,
+      "application_id": "936929561302675456",
+      "components": [
+        {
+          "components": [
+            {
+              "custom_id": "MJ::Job::Retry::w8mSKPE2vAsVTWvB0rw5Mw",
+              "id": 2,
+              "label": "Resubmit",
+              "style": 2,
+              "type": 2
+            }
+          ],
+          "id": 1,
+          "type": 1
+        }
+      ],
+      "webhook_id": "936929561302675456",
+      "attachments": [],
+      "channel_id": "996991021718179852",
+      "content": "",
+      "flags": 64,
+      "id": "1451297817837699214",
+      "interaction": {
+        "name": "imagine",
+        "type": 2,
+        "user": {
+          "global_name": "Logan",
+          "username": "fullstacklogan",
+          "display_name_styles": null,
+          "id": "475201463816290314",
+          "primary_guild": null,
+          "public_flags": 0,
+          "avatar": "961821c6f3798244b354e5920c94a3cc",
+          "avatar_decoration_data": null,
+          "clan": null,
+          "collectibles": null,
+          "discriminator": "0"
+        },
+        "id": "1451297816092741789"
+      },
+      "channel_type": 1,
+      "edited_timestamp": null,
+      "embeds": [
+        {
+          "content_scan_version": 0,
+          "description": "No start frame provided",
+          "footer": {
+            "text": "/imagine A mid-30s man with medium-length wavy black hair parted in the middle, sharp angular features, defined cheekbones, strong jawline, intense amber eyes, wearing a black leather jacket over a white t-shirt and blue jeans, waking in a sparse bedroom, early morning light filtering through thin curtains, dust particles suspended in golden rays, rumpled white sheets, shallow depth of field, intimate close-up from bed level, melancholic stillness, photorealistic cinematography --ar 16:9 --s 250 --video"
+          },
+          "id": "1451297817837699215",
+          "title": "Invalid request",
+          "type": "rich",
+          "color": 16711680
+        }
+      ],
+      "interaction_metadata": {
+        "command_type": 1,
+        "id": "1451297816092741789",
+        "name": "imagine",
+        "type": 2,
+        "user": {
+          "collectibles": null,
+          "discriminator": "0",
+          "global_name": "Logan",
+          "id": "475201463816290314",
+          "public_flags": 0,
+          "clan": null,
+          "display_name_styles": null,
+          "primary_guild": null,
+          "username": "fullstacklogan",
+          "avatar": "961821c6f3798244b354e5920c94a3cc",
+          "avatar_decoration_data": null
+        },
+        "authorizing_integration_owners": {
+          "0": "0"
+        }
+      },
+      "mention_everyone": false,
+      "mention_roles": [],
+      "mentions": [],
+      "type": 20
+    },
+    "verb": "video",
+    "created": "2025-12-18T19:39:21.441Z",
+    "jobType": "video",
+    "request": {
+      "prompt": "A mid-30s man with medium-length wavy black hair parted in the middle, sharp angular features, defined cheekbones, strong jawline, intense amber eyes, wearing a black leather jacket over a white t-shirt and blue jeans, waking in a sparse bedroom, early morning light filtering through thin curtains, dust particles suspended in golden rays, rumpled white sheets, shallow depth of field, intimate close-up from bed level, melancholic stillness, photorealistic cinematography --ar 16:9 --s 250 --video",
+      "stream": false
+    },
+    "status": "moderated",
+    "updated": "2025-12-18T19:39:23.660Z"
+  },
+  {
+    "request": {
+      "prompt": "A mid-30s man with medium-length wavy black hair parted in the middle, sharp angular features, defined cheekbones, strong jawline, intense amber eyes, wearing a black leather jacket over a white t-shirt and blue jeans, waking in a sparse bedroom, early morning light filtering through thin curtains, dust particles suspended in golden rays, rumpled white sheets, shallow depth of field, intimate close-up from bed level, melancholic stillness, photorealistic cinematography --ar 16:9 --v 7 --s 100 --c 9 --video",
+      "stream": false
+    },
+    "response": {
+      "edited_timestamp": null,
+      "embeds": [
+        {
+          "content_scan_version": 0,
+          "description": "No start frame provided",
+          "footer": {
+            "text": "/imagine A mid-30s man with medium-length wavy black hair parted in the middle, sharp angular features, defined cheekbones, strong jawline, intense amber eyes, wearing a black leather jacket over a white t-shirt and blue jeans, waking in a sparse bedroom, early morning light filtering through thin curtains, dust particles suspended in golden rays, rumpled white sheets, shallow depth of field, intimate close-up from bed level, melancholic stillness, photorealistic cinematography --ar 16:9 --v 7 --s 100 --c 9 --video"
+          },
+          "id": "1451295990576451615",
+          "title": "Invalid request",
+          "type": "rich",
+          "color": 16711680
+        }
+      ],
+      "flags": 64,
+      "type": 20,
+      "webhook_id": "936929561302675456",
+      "components": [
+        {
+          "components": [
+            {
+              "custom_id": "MJ::Job::Retry::WF-ImH0SLNWs-Ml3LiOyTg",
+              "id": 2,
+              "label": "Resubmit",
+              "style": 2,
+              "type": 2
+            }
+          ],
+          "id": 1,
+          "type": 1
+        }
+      ],
+      "id": "1451295990576451614",
+      "mention_roles": [],
+      "mentions": [],
+      "mention_everyone": false,
+      "attachments": [],
+      "interaction": {
+        "name": "imagine",
+        "type": 2,
+        "user": {
+          "global_name": "Logan",
+          "id": "475201463816290314",
+          "public_flags": 0,
+          "avatar": "961821c6f3798244b354e5920c94a3cc",
+          "avatar_decoration_data": null,
+          "clan": null,
+          "collectibles": null,
+          "primary_guild": null,
+          "username": "fullstacklogan",
+          "discriminator": "0",
+          "display_name_styles": null
+        },
+        "id": "1451295989460897872"
+      },
+      "interaction_metadata": {
+        "name": "imagine",
+        "type": 2,
+        "user": {
+          "avatar": "961821c6f3798244b354e5920c94a3cc",
+          "avatar_decoration_data": null,
+          "display_name_styles": null,
+          "global_name": "Logan",
+          "primary_guild": null,
+          "public_flags": 0,
+          "username": "fullstacklogan",
+          "clan": null,
+          "collectibles": null,
+          "discriminator": "0",
+          "id": "475201463816290314"
+        },
+        "authorizing_integration_owners": {
+          "0": "0"
+        },
+        "command_type": 1,
+        "id": "1451295989460897872"
+      },
+      "position": 0,
+      "timestamp": "2025-12-18T19:32:07.929000+00:00",
+      "tts": false,
+      "channel_id": "996991021718179852",
+      "channel_type": 1,
+      "content": "",
+      "nonce": "1218193204521101814",
+      "pinned": false,
+      "application_id": "936929561302675456",
+      "author": {
+        "avatar": "f6ce562a6b4979c4b1cbc5b436d3be76",
+        "avatar_decoration_data": null,
+        "discriminator": "9282",
+        "display_name_styles": null,
+        "id": "936929561302675456",
+        "primary_guild": null,
+        "bot": true,
+        "clan": null,
+        "collectibles": null,
+        "global_name": null,
+        "public_flags": 589824,
+        "username": "Midjourney Bot"
+      }
+    },
+    "status": "moderated",
+    "updated": "2025-12-18T19:32:08.107Z",
+    "created": "2025-12-18T19:32:04.691Z",
+    "errorDetails": "No start frame provided",
+    "jobid": "j1218193204521101814v-u2163-c996991021718179852-bot:midjourney",
+    "verb": "video",
+    "code": 422,
+    "error": "Invalid request",
+    "jobType": "video"
+  },
+  {
+    "code": 422,
+    "created": "2025-12-18T09:11:14.881Z",
+    "error": "Invalid request",
+    "jobType": "video",
+    "response": {
+      "application_id": "936929561302675456",
+      "attachments": [],
+      "edited_timestamp": null,
+      "flags": 64,
+      "nonce": "1218091114823731244",
+      "channel_type": 1,
+      "content": "",
+      "embeds": [
+        {
+          "content_scan_version": 0,
+          "description": "No start frame provided",
+          "footer": {
+            "text": "/imagine A mid-30s man with medium-length wavy black hair parted in the middle, sharp angular features, defined cheekbones, strong jawline, intense amber eyes, wearing a black leather jacket over a white t-shirt and blue jeans, waking in a sparse bedroom, early morning light filtering through thin curtains, dust particles suspended in golden rays, rumpled white sheets, shallow depth of field, intimate close-up from bed level, melancholic stillness, photorealistic cinematography --s 50 --video"
+          },
+          "id": "1451139761120084079",
+          "title": "Invalid request",
+          "type": "rich",
+          "color": 16711680
+        }
+      ],
+      "mentions": [],
+      "webhook_id": "936929561302675456",
+      "author": {
+        "global_name": null,
+        "id": "936929561302675456",
+        "primary_guild": null,
+        "public_flags": 589824,
+        "bot": true,
+        "clan": null,
+        "collectibles": null,
+        "display_name_styles": null,
+        "username": "Midjourney Bot",
+        "avatar": "f6ce562a6b4979c4b1cbc5b436d3be76",
+        "avatar_decoration_data": null,
+        "discriminator": "9282"
+      },
+      "id": "1451139761120084078",
+      "interaction": {
+        "id": "1451139760180691076",
+        "name": "imagine",
+        "type": 2,
+        "user": {
+          "global_name": "Logan",
+          "id": "475201463816290314",
+          "primary_guild": null,
+          "username": "fullstacklogan",
+          "avatar": "961821c6f3798244b354e5920c94a3cc",
+          "avatar_decoration_data": null,
+          "clan": null,
+          "collectibles": null,
+          "discriminator": "0",
+          "display_name_styles": null,
+          "public_flags": 0
+        }
+      },
+      "interaction_metadata": {
+        "type": 2,
+        "user": {
+          "clan": null,
+          "collectibles": null,
+          "discriminator": "0",
+          "display_name_styles": null,
+          "global_name": "Logan",
+          "primary_guild": null,
+          "public_flags": 0,
+          "avatar": "961821c6f3798244b354e5920c94a3cc",
+          "id": "475201463816290314",
+          "username": "fullstacklogan",
+          "avatar_decoration_data": null
+        },
+        "authorizing_integration_owners": {
+          "0": "0"
+        },
+        "command_type": 1,
+        "id": "1451139760180691076",
+        "name": "imagine"
+      },
+      "pinned": false,
+      "timestamp": "2025-12-18T09:11:19.924000+00:00",
+      "channel_id": "996991021718179852",
+      "components": [
+        {
+          "id": 1,
+          "type": 1,
+          "components": [
+            {
+              "id": 2,
+              "label": "Resubmit",
+              "style": 2,
+              "type": 2,
+              "custom_id": "MJ::Job::Retry::ya3O9aDJa-zYyMIo7mh28Q"
+            }
+          ]
+        }
+      ],
+      "mention_everyone": false,
+      "mention_roles": [],
+      "position": 0,
+      "tts": false,
+      "type": 20
+    },
+    "updated": "2025-12-18T09:11:20.165Z",
+    "errorDetails": "No start frame provided",
+    "jobid": "j1218091114823731244v-u2163-c996991021718179852-bot:midjourney",
+    "request": {
+      "prompt": "A mid-30s man with medium-length wavy black hair parted in the middle, sharp angular features, defined cheekbones, strong jawline, intense amber eyes, wearing a black leather jacket over a white t-shirt and blue jeans, waking in a sparse bedroom, early morning light filtering through thin curtains, dust particles suspended in golden rays, rumpled white sheets, shallow depth of field, intimate close-up from bed level, melancholic stillness, photorealistic cinematography --s 50 --video",
+      "stream": false
+    },
+    "status": "moderated",
+    "verb": "imagine"
+  },
+  {
+    "code": 422,
+    "created": "2025-12-18T07:59:17.104Z",
+    "errorDetails": "No start frame provided",
+    "jobType": "video",
+    "updated": "2025-12-18T07:59:19.192Z",
+    "error": "Invalid request",
+    "jobid": "j1218075917066367214v-u2163-c996991021718179852-bot:midjourney",
+    "request": {
+      "prompt": "Elegant pale hand with long fingers pressed flat against curved glass belonging to a seven-foot-tall Nordic alien with luminous pale skin with subtle inner glow, Earth visible beyond in soft focus, condensation forming around the palm, extreme close-up, cool blue ambient light from within the saucer, profound longing captured in gesture alone --s 50 --video",
+      "stream": false
+    },
+    "response": {
+      "content": "",
+      "pinned": false,
+      "type": 20,
+      "author": {
+        "discriminator": "9282",
+        "global_name": null,
+        "id": "936929561302675456",
+        "public_flags": 589824,
+        "avatar": "f6ce562a6b4979c4b1cbc5b436d3be76",
+        "avatar_decoration_data": null,
+        "display_name_styles": null,
+        "primary_guild": null,
+        "username": "Midjourney Bot",
+        "bot": true,
+        "clan": null,
+        "collectibles": null
+      },
+      "interaction_metadata": {
+        "type": 2,
+        "user": {
+          "collectibles": null,
+          "discriminator": "0",
+          "id": "475201463816290314",
+          "username": "fullstacklogan",
+          "avatar_decoration_data": null,
+          "display_name_styles": null,
+          "global_name": "Logan",
+          "primary_guild": null,
+          "public_flags": 0,
+          "avatar": "961821c6f3798244b354e5920c94a3cc",
+          "clan": null
+        },
+        "authorizing_integration_owners": {
+          "0": "0"
+        },
+        "command_type": 1,
+        "id": "1451121637494755329",
+        "name": "imagine"
+      },
+      "nonce": "1218075917066367214",
+      "position": 0,
+      "tts": false,
+      "attachments": [],
+      "channel_id": "996991021718179852",
+      "edited_timestamp": null,
+      "embeds": [
+        {
+          "description": "No start frame provided",
+          "footer": {
+            "text": "/imagine Elegant pale hand with long fingers pressed flat against curved glass belonging to a seven-foot-tall Nordic alien with luminous pale skin with subtle inner glow, Earth visible beyond in soft focus, condensation forming around the palm, extreme close-up, cool blue ambient light from within the saucer, profound longing captured in gesture alone --s 50 --video"
+          },
+          "id": "1451121638627348512",
+          "title": "Invalid request",
+          "type": "rich",
+          "color": 16711680,
+          "content_scan_version": 0
+        }
+      ],
+      "flags": 64,
+      "mention_roles": [],
+      "mentions": [],
+      "webhook_id": "936929561302675456",
+      "application_id": "936929561302675456",
+      "id": "1451121638627348511",
+      "interaction": {
+        "id": "1451121637494755329",
+        "name": "imagine",
+        "type": 2,
+        "user": {
+          "global_name": "Logan",
+          "id": "475201463816290314",
+          "primary_guild": null,
+          "avatar": "961821c6f3798244b354e5920c94a3cc",
+          "avatar_decoration_data": null,
+          "collectibles": null,
+          "display_name_styles": null,
+          "public_flags": 0,
+          "username": "fullstacklogan",
+          "clan": null,
+          "discriminator": "0"
+        }
+      },
+      "mention_everyone": false,
+      "timestamp": "2025-12-18T07:59:19.185000+00:00",
+      "channel_type": 1,
+      "components": [
+        {
+          "type": 1,
+          "components": [
+            {
+              "custom_id": "MJ::Job::Retry::ZJRLJ8y_QTtok3dJ1AqL0g",
+              "id": 2,
+              "label": "Resubmit",
+              "style": 2,
+              "type": 2
+            }
+          ],
+          "id": 1
+        }
+      ]
+    },
+    "status": "moderated",
+    "verb": "imagine"
+  },
+  {
+    "request": {
+      "prompt": "Elegant pale hand with long fingers pressed flat against curved glass belonging to a seven-foot-tall Nordic alien with luminous pale skin with subtle inner glow, Earth visible beyond in soft focus, condensation forming around the palm, extreme close-up, cool blue ambient light from within the saucer, profound longing captured in gesture alone --s 50 --video",
+      "stream": false
+    },
+    "response": {
+      "components": [
+        {
+          "components": [
+            {
+              "type": 2,
+              "custom_id": "MJ::Job::Retry::sl1FQUqdI_RUjkgBo1InGQ",
+              "id": 2,
+              "label": "Resubmit",
+              "style": 2
+            }
+          ],
+          "id": 1,
+          "type": 1
+        }
+      ],
+      "content": "",
+      "flags": 64,
+      "mentions": [],
+      "nonce": "1218075139258602978",
+      "timestamp": "2025-12-18T07:51:42.592000+00:00",
+      "application_id": "936929561302675456",
+      "author": {
+        "clan": null,
+        "discriminator": "9282",
+        "display_name_styles": null,
+        "public_flags": 589824,
+        "bot": true,
+        "collectibles": null,
+        "global_name": null,
+        "id": "936929561302675456",
+        "primary_guild": null,
+        "username": "Midjourney Bot",
+        "avatar": "f6ce562a6b4979c4b1cbc5b436d3be76",
+        "avatar_decoration_data": null
+      },
+      "embeds": [
+        {
+          "description": "No start frame provided",
+          "footer": {
+            "text": "/imagine Elegant pale hand with long fingers pressed flat against curved glass belonging to a seven-foot-tall Nordic alien with luminous pale skin with subtle inner glow, Earth visible beyond in soft focus, condensation forming around the palm, extreme close-up, cool blue ambient light from within the saucer, profound longing captured in gesture alone --s 50 --video"
+          },
+          "id": "1451119724170842145",
+          "title": "Invalid request",
+          "type": "rich",
+          "color": 16711680,
+          "content_scan_version": 0
+        }
+      ],
+      "interaction": {
+        "id": "1451119722371354624",
+        "name": "imagine",
+        "type": 2,
+        "user": {
+          "clan": null,
+          "discriminator": "0",
+          "id": "475201463816290314",
+          "public_flags": 0,
+          "username": "fullstacklogan",
+          "avatar": "961821c6f3798244b354e5920c94a3cc",
+          "avatar_decoration_data": null,
+          "collectibles": null,
+          "display_name_styles": null,
+          "global_name": "Logan",
+          "primary_guild": null
+        }
+      },
+      "mention_everyone": false,
+      "position": 0,
+      "tts": false,
+      "type": 20,
+      "attachments": [],
+      "edited_timestamp": null,
+      "id": "1451119723537371240",
+      "interaction_metadata": {
+        "type": 2,
+        "user": {
+          "avatar": "961821c6f3798244b354e5920c94a3cc",
+          "avatar_decoration_data": null,
+          "clan": null,
+          "collectibles": null,
+          "global_name": "Logan",
+          "primary_guild": null,
+          "public_flags": 0,
+          "discriminator": "0",
+          "display_name_styles": null,
+          "id": "475201463816290314",
+          "username": "fullstacklogan"
+        },
+        "authorizing_integration_owners": {
+          "0": "0"
+        },
+        "command_type": 1,
+        "id": "1451119722371354624",
+        "name": "imagine"
+      },
+      "mention_roles": [],
+      "pinned": false,
+      "webhook_id": "936929561302675456",
+      "channel_type": 1,
+      "channel_id": "996991021718179852"
+    },
+    "status": "moderated",
+    "updated": "2025-12-18T07:51:42.892Z",
+    "error": "Invalid request",
+    "jobType": "video",
+    "jobid": "j1218075139258602978v-u2163-c996991021718179852-bot:midjourney",
+    "verb": "imagine",
+    "code": 422,
+    "created": "2025-12-18T07:51:39.296Z",
+    "errorDetails": "No start frame provided"
+  },
+  {
+    "jobType": "video",
+    "request": {
+      "stream": false,
+      "prompt": "Interior of a classic silver flying saucer, vast curved observation window revealing Earth below in brilliant blue and white, a seven-foot-tall Nordic alien with long flowing platinum blonde hair, luminous pale skin with subtle inner glow, large crystalline pale blue eyes, impossibly beautiful androgynous angular features, high cheekbones, wearing flowing silver-white robes, standing in silhouette, back to camera, soft ambient glow from control panels, contemplative atmosphere, wide shot emphasizing scale and isolation --s 50 --video"
+    },
+    "updated": "2025-12-18T07:40:24.470Z",
+    "response": {
+      "timestamp": "2025-12-18T07:40:24.359000+00:00",
+      "mentions": [],
+      "interaction_metadata": {
+        "user": {
+          "display_name_styles": null,
+          "discriminator": "0",
+          "collectibles": null,
+          "clan": null,
+          "public_flags": 0,
+          "avatar_decoration_data": null,
+          "avatar": "961821c6f3798244b354e5920c94a3cc",
+          "username": "fullstacklogan",
+          "primary_guild": null,
+          "id": "475201463816290314",
+          "global_name": "Logan"
+        },
+        "type": 2,
+        "name": "imagine",
+        "id": "1451116878389837894",
+        "command_type": 1,
+        "authorizing_integration_owners": {
+          "0": "0"
+        }
+      },
+      "embeds": [
+        {
+          "type": "rich",
+          "title": "Invalid request",
+          "id": "1451116878821986377",
+          "footer": {
+            "text": "/imagine Interior of a classic silver flying saucer, vast curved observation window revealing Earth below in brilliant blue and white, a seven-foot-tall Nordic alien with long flowing platinum blonde hair, luminous pale skin with subtle inner glow, large crystalline pale blue eyes, impossibly beautiful androgynous angular features, high cheekbones, wearing flowing silver-white robes, standing in silhouette, back to camera, soft ambient glow from control panels, contemplative atmosphere, wide shot emphasizing scale and isolation --s 50 --video"
+          },
+          "description": "No start frame provided",
+          "content_scan_version": 0,
+          "color": 16711680
+        }
+      ],
+      "channel_type": 1,
+      "application_id": "936929561302675456",
+      "type": 20,
+      "mention_everyone": false,
+      "interaction": {
+        "user": {
+          "primary_guild": null,
+          "display_name_styles": null,
+          "discriminator": "0",
+          "collectibles": null,
+          "avatar": "961821c6f3798244b354e5920c94a3cc",
+          "username": "fullstacklogan",
+          "id": "475201463816290314",
+          "global_name": "Logan",
+          "clan": null,
+          "avatar_decoration_data": null,
+          "public_flags": 0
+        },
+        "type": 2,
+        "name": "imagine",
+        "id": "1451116878389837894"
+      },
+      "flags": 64,
+      "edited_timestamp": null,
+      "attachments": [],
+      "position": 0,
+      "pinned": false,
+      "nonce": "1218074022263782659",
+      "mention_roles": [],
+      "webhook_id": "936929561302675456",
+      "tts": false,
+      "id": "1451116878821986376",
+      "content": "",
+      "components": [
+        {
+          "id": 1,
+          "components": [
+            {
+              "type": 2,
+              "style": 2,
+              "label": "Resubmit",
+              "id": 2,
+              "custom_id": "MJ::Job::Retry::ywe6Hhg2wfCscPUy5Dru8A"
+            }
+          ],
+          "type": 1
+        }
+      ],
+      "channel_id": "996991021718179852",
+      "author": {
+        "username": "Midjourney Bot",
+        "public_flags": 589824,
+        "primary_guild": null,
+        "id": "936929561302675456",
+        "discriminator": "9282",
+        "avatar_decoration_data": null,
+        "avatar": "f6ce562a6b4979c4b1cbc5b436d3be76",
+        "global_name": null,
+        "display_name_styles": null,
+        "collectibles": null,
+        "clan": null,
+        "bot": true
+      }
+    },
+    "code": 422,
+    "jobid": "j1218074022263782659v-u2163-c996991021718179852-bot:midjourney",
+    "status": "moderated",
+    "created": "2025-12-18T07:40:22.307Z",
+    "error": "Invalid request",
+    "errorDetails": "No start frame provided",
+    "verb": "imagine"
+  },
+  {
+    "error": "Invalid request",
+    "request": {
+      "prompt": "Interior of a classic silver flying saucer, vast curved observation window revealing Earth below in brilliant blue and white, a seven-foot-tall Nordic alien with long flowing platinum blonde hair, luminous pale skin with subtle inner glow, large crystalline pale blue eyes, impossibly beautiful androgynous angular features, high cheekbones, wearing flowing silver-white robes, standing in silhouette, back to camera, soft ambient glow from control panels, contemplative atmosphere, wide shot emphasizing scale and isolation --s 50 --video",
+      "stream": false
+    },
+    "response": {
+      "position": 0,
+      "interaction": {
+        "id": "1451114208048451584",
+        "name": "imagine",
+        "type": 2,
+        "user": {
+          "avatar": "961821c6f3798244b354e5920c94a3cc",
+          "avatar_decoration_data": null,
+          "clan": null,
+          "discriminator": "0",
+          "id": "475201463816290314",
+          "collectibles": null,
+          "display_name_styles": null,
+          "global_name": "Logan",
+          "primary_guild": null,
+          "public_flags": 0,
+          "username": "fullstacklogan"
+        }
+      },
+      "mention_roles": [],
+      "tts": false,
+      "type": 20,
+      "channel_id": "996991021718179852",
+      "mention_everyone": false,
+      "webhook_id": "936929561302675456",
+      "attachments": [],
+      "channel_type": 1,
+      "components": [
+        {
+          "components": [
+            {
+              "custom_id": "MJ::Job::Retry::H1bXrHqXoVOtfuGN_ceSXA",
+              "id": 2,
+              "label": "Resubmit",
+              "style": 2,
+              "type": 2
+            }
+          ],
+          "id": 1,
+          "type": 1
+        }
+      ],
+      "edited_timestamp": null,
+      "id": "1451114208950354002",
+      "mentions": [],
+      "pinned": false,
+      "timestamp": "2025-12-18T07:29:47.812000+00:00",
+      "application_id": "936929561302675456",
+      "author": {
+        "id": "936929561302675456",
+        "primary_guild": null,
+        "username": "Midjourney Bot",
+        "avatar_decoration_data": null,
+        "bot": true,
+        "collectibles": null,
+        "discriminator": "9282",
+        "display_name_styles": null,
+        "global_name": null,
+        "public_flags": 589824,
+        "avatar": "f6ce562a6b4979c4b1cbc5b436d3be76",
+        "clan": null
+      },
+      "content": "",
+      "embeds": [
+        {
+          "description": "No start frame provided",
+          "footer": {
+            "text": "/imagine Interior of a classic silver flying saucer, vast curved observation window revealing Earth below in brilliant blue and white, a seven-foot-tall Nordic alien with long flowing platinum blonde hair, luminous pale skin with subtle inner glow, large crystalline pale blue eyes, impossibly beautiful androgynous angular features, high cheekbones, wearing flowing silver-white robes, standing in silhouette, back to camera, soft ambient glow from control panels, contemplative atmosphere, wide shot emphasizing scale and isolation --s 50 --video"
+          },
+          "id": "1451114208950354003",
+          "title": "Invalid request",
+          "type": "rich",
+          "color": 16711680,
+          "content_scan_version": 0
+        }
+      ],
+      "flags": 64,
+      "interaction_metadata": {
+        "user": {
+          "discriminator": "0",
+          "display_name_styles": null,
+          "global_name": "Logan",
+          "public_flags": 0,
+          "username": "fullstacklogan",
+          "clan": null,
+          "collectibles": null,
+          "id": "475201463816290314",
+          "primary_guild": null,
+          "avatar": "961821c6f3798244b354e5920c94a3cc",
+          "avatar_decoration_data": null
+        },
+        "authorizing_integration_owners": {
+          "0": "0"
+        },
+        "command_type": 1,
+        "id": "1451114208048451584",
+        "name": "imagine",
+        "type": 2
+      },
+      "nonce": "1218072945728478381"
+    },
+    "status": "moderated",
+    "updated": "2025-12-18T07:29:47.827Z",
+    "created": "2025-12-18T07:29:45.785Z",
+    "errorDetails": "No start frame provided",
+    "jobType": "video",
+    "jobid": "j1218072945728478381v-u2163-c996991021718179852-bot:midjourney",
+    "verb": "imagine",
+    "code": 422
+  },
+  {
+    "errorDetails": "No start frame provided",
+    "request": {
+      "prompt": "A mid-30s man with medium-length wavy black hair parted in the middle, sharp angular features, defined cheekbones, strong jawline, intense amber eyes, wearing a black leather jacket over a white t-shirt and blue jeans, waking in a sparse bedroom, early morning light filtering through thin curtains, dust particles suspended in golden rays, rumpled white sheets, shallow depth of field, intimate close-up from bed level, melancholic stillness, photorealistic cinematography --s 50 --video",
+      "stream": false
+    },
+    "code": 422,
+    "jobType": "video",
+    "jobid": "j1218072931647605654v-u2163-c996991021718179852-bot:midjourney",
+    "response": {
+      "application_id": "936929561302675456",
+      "components": [
+        {
+          "components": [
+            {
+              "label": "Resubmit",
+              "style": 2,
+              "type": 2,
+              "custom_id": "MJ::Job::Retry::lnBSwiqSel37BjIb-k1p8Q",
+              "id": 2
+            }
+          ],
+          "id": 1,
+          "type": 1
+        }
+      ],
+      "id": "1451114148564828161",
+      "mention_everyone": false,
+      "mentions": [],
+      "position": 0,
+      "type": 20,
+      "attachments": [],
+      "author": {
+        "avatar": "f6ce562a6b4979c4b1cbc5b436d3be76",
+        "avatar_decoration_data": null,
+        "bot": true,
+        "clan": null,
+        "collectibles": null,
+        "discriminator": "9282",
+        "display_name_styles": null,
+        "global_name": null,
+        "id": "936929561302675456",
+        "primary_guild": null,
+        "public_flags": 589824,
+        "username": "Midjourney Bot"
+      },
+      "channel_type": 1,
+      "embeds": [
+        {
+          "title": "Invalid request",
+          "type": "rich",
+          "color": 16711680,
+          "content_scan_version": 0,
+          "description": "No start frame provided",
+          "footer": {
+            "text": "/imagine A mid-30s man with medium-length wavy black hair parted in the middle, sharp angular features, defined cheekbones, strong jawline, intense amber eyes, wearing a black leather jacket over a white t-shirt and blue jeans, waking in a sparse bedroom, early morning light filtering through thin curtains, dust particles suspended in golden rays, rumpled white sheets, shallow depth of field, intimate close-up from bed level, melancholic stillness, photorealistic cinematography --s 50 --video"
+          },
+          "id": "1451114148564828162"
+        }
+      ],
+      "flags": 64,
+      "interaction": {
+        "name": "imagine",
+        "type": 2,
+        "user": {
+          "avatar": "961821c6f3798244b354e5920c94a3cc",
+          "collectibles": null,
+          "discriminator": "0",
+          "display_name_styles": null,
+          "global_name": "Logan",
+          "id": "475201463816290314",
+          "primary_guild": null,
+          "public_flags": 0,
+          "avatar_decoration_data": null,
+          "clan": null,
+          "username": "fullstacklogan"
+        },
+        "id": "1451114147621240925"
+      },
+      "webhook_id": "936929561302675456",
+      "channel_id": "996991021718179852",
+      "edited_timestamp": null,
+      "interaction_metadata": {
+        "name": "imagine",
+        "type": 2,
+        "user": {
+          "clan": null,
+          "collectibles": null,
+          "display_name_styles": null,
+          "id": "475201463816290314",
+          "primary_guild": null,
+          "username": "fullstacklogan",
+          "avatar_decoration_data": null,
+          "discriminator": "0",
+          "global_name": "Logan",
+          "public_flags": 0,
+          "avatar": "961821c6f3798244b354e5920c94a3cc"
+        },
+        "authorizing_integration_owners": {
+          "0": "0"
+        },
+        "command_type": 1,
+        "id": "1451114147621240925"
+      },
+      "pinned": false,
+      "timestamp": "2025-12-18T07:29:33.415000+00:00",
+      "tts": false,
+      "content": "",
+      "mention_roles": [],
+      "nonce": "1218072931647605654"
+    },
+    "status": "moderated",
+    "updated": "2025-12-18T07:29:33.405Z",
+    "verb": "imagine",
+    "created": "2025-12-18T07:29:31.710Z",
+    "error": "Invalid request"
+  },
+  {
+    "status": "completed",
+    "response": {
+      "timestamp": "2025-12-18T07:28:29.227000+00:00",
+      "pinned": false,
+      "channel_id": "996991021718179852",
+      "mention_everyone": false,
+      "embeds": [],
+      "buttons": [
+        "U1",
+        "U2",
+        "U3",
+        "U4",
+        "\ud83d\udd04",
+        "V1",
+        "V2",
+        "V3",
+        "V4"
+      ],
+      "flags": 0,
+      "mentions": [
+        {
+          "global_name": "Logan",
+          "clan": {
+            "identity_guild_id": null,
+            "identity_enabled": false,
+            "badge": null,
+            "tag": null
+          },
+          "primary_guild": {
+            "tag": null,
+            "identity_guild_id": null,
+            "identity_enabled": false,
+            "badge": null
+          },
+          "collectibles": null,
+          "avatar_decoration_data": null,
+          "username": "fullstacklogan",
+          "id": "475201463816290314",
+          "discriminator": "0",
+          "display_name_styles": null,
+          "avatar": "961821c6f3798244b354e5920c94a3cc",
+          "public_flags": 0
+        }
+      ],
+      "components": [
+        {
+          "type": 1,
+          "id": 1,
+          "components": [
+            {
+              "label": "U1",
+              "id": 2,
+              "custom_id": "MJ::JOB::upsample::1::1bdeb725-e3f3-4427-81be-312ef83894ed",
+              "type": 2,
+              "style": 2
+            },
+            {
+              "id": 3,
+              "custom_id": "MJ::JOB::upsample::2::1bdeb725-e3f3-4427-81be-312ef83894ed",
+              "type": 2,
+              "style": 2,
+              "label": "U2"
+            },
+            {
+              "type": 2,
+              "style": 2,
+              "label": "U3",
+              "id": 4,
+              "custom_id": "MJ::JOB::upsample::3::1bdeb725-e3f3-4427-81be-312ef83894ed"
+            },
+            {
+              "custom_id": "MJ::JOB::upsample::4::1bdeb725-e3f3-4427-81be-312ef83894ed",
+              "type": 2,
+              "style": 2,
+              "label": "U4",
+              "id": 5
+            },
+            {
+              "custom_id": "MJ::JOB::reroll::0::1bdeb725-e3f3-4427-81be-312ef83894ed::SOLO",
+              "type": 2,
+              "style": 2,
+              "id": 6,
+              "emoji": {
+                "name": "\ud83d\udd04"
+              }
+            }
+          ]
+        },
+        {
+          "components": [
+            {
+              "type": 2,
+              "style": 2,
+              "label": "V1",
+              "id": 8,
+              "custom_id": "MJ::JOB::variation::1::1bdeb725-e3f3-4427-81be-312ef83894ed"
+            },
+            {
+              "type": 2,
+              "style": 2,
+              "label": "V2",
+              "id": 9,
+              "custom_id": "MJ::JOB::variation::2::1bdeb725-e3f3-4427-81be-312ef83894ed"
+            },
+            {
+              "label": "V3",
+              "id": 10,
+              "custom_id": "MJ::JOB::variation::3::1bdeb725-e3f3-4427-81be-312ef83894ed",
+              "type": 2,
+              "style": 2
+            },
+            {
+              "custom_id": "MJ::JOB::variation::4::1bdeb725-e3f3-4427-81be-312ef83894ed",
+              "type": 2,
+              "style": 2,
+              "label": "V4",
+              "id": 11
+            },
+            {
+              "id": 12,
+              "url": "https://www.midjourney.com/jobs/1bdeb725-e3f3-4427-81be-312ef83894ed",
+              "type": 2,
+              "style": 5,
+              "label": "\u200b"
+            }
+          ],
+          "type": 1,
+          "id": 7
+        }
+      ],
+      "type": 0,
+      "mention_roles": [],
+      "id": "1451113879341109320",
+      "content": "**Interior of a classic silver flying saucer, vast curved observation window revealing Earth below in brilliant blue and white, a seven-foot-tall Nordic alien with long flowing platinum blonde hair, luminous pale skin with subtle inner glow, large crystalline pale blue eyes, impossibly beautiful androgynous angular features, high cheekbones, wearing flowing silver-white robes, standing in silhouette, back to camera, soft ambient glow from control panels, contemplative atmosphere, wide shot emphasizing scale and isolation --s 50 --ar 16:9 --p lqg2fke --raw** - <@475201463816290314> (fast)",
+      "tts": false,
+      "channel_type": 1,
+      "author": {
+        "discriminator": "9282",
+        "clan": null,
+        "avatar_decoration_data": null,
+        "username": "Midjourney Bot",
+        "collectibles": null,
+        "id": "936929561302675456",
+        "avatar": "f6ce562a6b4979c4b1cbc5b436d3be76",
+        "global_name": null,
+        "display_name_styles": null,
+        "bot": true,
+        "public_flags": 589824,
+        "primary_guild": null
+      },
+      "imageUx": [
+        {
+          "url": "https://cdn.midjourney.com/1bdeb725-e3f3-4427-81be-312ef83894ed/0_0.jpeg",
+          "id": 1
+        },
+        {
+          "id": 2,
+          "url": "https://cdn.midjourney.com/1bdeb725-e3f3-4427-81be-312ef83894ed/0_1.jpeg"
+        },
+        {
+          "id": 3,
+          "url": "https://cdn.midjourney.com/1bdeb725-e3f3-4427-81be-312ef83894ed/0_2.jpeg"
+        },
+        {
+          "id": 4,
+          "url": "https://cdn.midjourney.com/1bdeb725-e3f3-4427-81be-312ef83894ed/0_3.jpeg"
+        }
+      ],
+      "edited_timestamp": null,
+      "attachments": [
+        {
+          "width": 2912,
+          "height": 1632,
+          "content_scan_version": 3,
+          "url": "https://cdn.discordapp.com/attachments/996991021718179852/1451113878850240602/fullstacklogan_Interior_of_a_classic_silver_flying_saucer_vast__1bdeb725-e3f3-4427-81be-312ef83894ed.png?ex=6944fe9d&is=6943ad1d&hm=7b09fc39f495fbbca249947dfdc578df7464a9099e213e8513ea036845d71421&",
+          "placeholder_version": 1,
+          "content_type": "image/png",
+          "proxy_url": "https://media.discordapp.net/attachments/996991021718179852/1451113878850240602/fullstacklogan_Interior_of_a_classic_silver_flying_saucer_vast__1bdeb725-e3f3-4427-81be-312ef83894ed.png?ex=6944fe9d&is=6943ad1d&hm=7b09fc39f495fbbca249947dfdc578df7464a9099e213e8513ea036845d71421&",
+          "placeholder": "EMcFFIKZMDvHu1NqdmZARgiEhQ==",
+          "filename": "fullstacklogan_Interior_of_a_classic_silver_flying_saucer_vast__1bdeb725-e3f3-4427-81be-312ef83894ed.png",
+          "size": 6793219,
+          "id": "1451113878850240602"
+        }
+      ]
+    },
+    "jobid": "j1218072755051840440i-u2163-c996991021718179852-bot:midjourney",
+    "verb": "imagine",
+    "created": "2025-12-18T07:27:55.113Z",
+    "code": 200,
+    "jobType": "image",
+    "updated": "2025-12-18T07:28:29.697Z",
+    "request": {
+      "stream": false,
+      "prompt": "Interior of a classic silver flying saucer, vast curved observation window revealing Earth below in brilliant blue and white, a seven-foot-tall Nordic alien with long flowing platinum blonde hair, luminous pale skin with subtle inner glow, large crystalline pale blue eyes, impossibly beautiful androgynous angular features, high cheekbones, wearing flowing silver-white robes, standing in silhouette, back to camera, soft ambient glow from control panels, contemplative atmosphere, wide shot emphasizing scale and isolation --s 50"
+    }
+  },
+  {
+    "updated": "2025-12-18T07:28:19.504Z",
+    "jobid": "j1218072746645060096i-u2163-c996991021718179852-bot:midjourney",
+    "verb": "imagine",
+    "created": "2025-12-18T07:27:46.688Z",
+    "request": {
+      "stream": false,
+      "prompt": "A mid-30s man with medium-length wavy black hair parted in the middle, sharp angular features, defined cheekbones, strong jawline, intense amber eyes, wearing a black leather jacket over a white t-shirt and blue jeans, waking in a sparse bedroom, early morning light filtering through thin curtains, dust particles suspended in golden rays, rumpled white sheets, shallow depth of field, intimate close-up from bed level, melancholic stillness, photorealistic cinematography --s 50"
+    },
+    "response": {
+      "id": "1451113837204996231",
+      "tts": false,
+      "mention_roles": [],
+      "edited_timestamp": null,
+      "attachments": [
+        {
+          "content_type": "image/png",
+          "height": 1632,
+          "filename": "fullstacklogan_A_mid-30s_man_with_medium-length_wavy_black_hair_4fd24fa1-8485-401b-80e3-e574a80f4e2c.png",
+          "placeholder": "1RgKBIKK2Xar+DeauHtu3/bWSA==",
+          "id": "1451113836714131628",
+          "size": 6127421,
+          "content_scan_version": 3,
+          "width": 2912,
+          "url": "https://cdn.discordapp.com/attachments/996991021718179852/1451113836714131628/fullstacklogan_A_mid-30s_man_with_medium-length_wavy_black_hair_4fd24fa1-8485-401b-80e3-e574a80f4e2c.png?ex=6944fe93&is=6943ad13&hm=c831b1674a54d9a74a901408f90f6b354a4bdb1ca654bb6f5e13a6b588bd2fd0&",
+          "proxy_url": "https://media.discordapp.net/attachments/996991021718179852/1451113836714131628/fullstacklogan_A_mid-30s_man_with_medium-length_wavy_black_hair_4fd24fa1-8485-401b-80e3-e574a80f4e2c.png?ex=6944fe93&is=6943ad13&hm=c831b1674a54d9a74a901408f90f6b354a4bdb1ca654bb6f5e13a6b588bd2fd0&",
+          "placeholder_version": 1
+        }
+      ],
+      "imageUx": [
+        {
+          "id": 1,
+          "url": "https://cdn.midjourney.com/4fd24fa1-8485-401b-80e3-e574a80f4e2c/0_0.jpeg"
+        },
+        {
+          "url": "https://cdn.midjourney.com/4fd24fa1-8485-401b-80e3-e574a80f4e2c/0_1.jpeg",
+          "id": 2
+        },
+        {
+          "id": 3,
+          "url": "https://cdn.midjourney.com/4fd24fa1-8485-401b-80e3-e574a80f4e2c/0_2.jpeg"
+        },
+        {
+          "id": 4,
+          "url": "https://cdn.midjourney.com/4fd24fa1-8485-401b-80e3-e574a80f4e2c/0_3.jpeg"
+        }
+      ],
+      "content": "**A mid-30s man with medium-length wavy black hair parted in the middle, sharp angular features, defined cheekbones, strong jawline, intense amber eyes, wearing a black leather jacket over a white t-shirt and blue jeans, waking in a sparse bedroom, early morning light filtering through thin curtains, dust particles suspended in golden rays, rumpled white sheets, shallow depth of field, intimate close-up from bed level, melancholic stillness, photorealistic cinematography --s 50 --ar 16:9 --p lqg2fke --raw** - <@475201463816290314> (fast)\n-# Create, explore, and organize on [midjourney.com](<https://midjourney.com/imagine?from_discord=1>)",
+      "channel_type": 1,
+      "type": 0,
+      "buttons": [
+        "U1",
+        "U2",
+        "U3",
+        "U4",
+        "\ud83d\udd04",
+        "V1",
+        "V2",
+        "V3",
+        "V4"
+      ],
+      "timestamp": "2025-12-18T07:28:19.181000+00:00",
+      "mention_everyone": false,
+      "components": [
+        {
+          "components": [
+            {
+              "type": 2,
+              "style": 2,
+              "label": "U1",
+              "id": 2,
+              "custom_id": "MJ::JOB::upsample::1::4fd24fa1-8485-401b-80e3-e574a80f4e2c"
+            },
+            {
+              "style": 2,
+              "label": "U2",
+              "id": 3,
+              "custom_id": "MJ::JOB::upsample::2::4fd24fa1-8485-401b-80e3-e574a80f4e2c",
+              "type": 2
+            },
+            {
+              "id": 4,
+              "custom_id": "MJ::JOB::upsample::3::4fd24fa1-8485-401b-80e3-e574a80f4e2c",
+              "type": 2,
+              "style": 2,
+              "label": "U3"
+            },
+            {
+              "label": "U4",
+              "id": 5,
+              "custom_id": "MJ::JOB::upsample::4::4fd24fa1-8485-401b-80e3-e574a80f4e2c",
+              "type": 2,
+              "style": 2
+            },
+            {
+              "emoji": {
+                "name": "\ud83d\udd04"
+              },
+              "custom_id": "MJ::JOB::reroll::0::4fd24fa1-8485-401b-80e3-e574a80f4e2c::SOLO",
+              "type": 2,
+              "style": 2,
+              "id": 6
+            }
+          ],
+          "type": 1,
+          "id": 1
+        },
+        {
+          "type": 1,
+          "id": 7,
+          "components": [
+            {
+              "custom_id": "MJ::JOB::variation::1::4fd24fa1-8485-401b-80e3-e574a80f4e2c",
+              "type": 2,
+              "style": 2,
+              "label": "V1",
+              "id": 8
+            },
+            {
+              "custom_id": "MJ::JOB::variation::2::4fd24fa1-8485-401b-80e3-e574a80f4e2c",
+              "type": 2,
+              "style": 2,
+              "label": "V2",
+              "id": 9
+            },
+            {
+              "id": 10,
+              "custom_id": "MJ::JOB::variation::3::4fd24fa1-8485-401b-80e3-e574a80f4e2c",
+              "type": 2,
+              "style": 2,
+              "label": "V3"
+            },
+            {
+              "style": 2,
+              "label": "V4",
+              "id": 11,
+              "custom_id": "MJ::JOB::variation::4::4fd24fa1-8485-401b-80e3-e574a80f4e2c",
+              "type": 2
+            },
+            {
+              "id": 12,
+              "url": "https://www.midjourney.com/jobs/4fd24fa1-8485-401b-80e3-e574a80f4e2c",
+              "type": 2,
+              "style": 5,
+              "label": "\u200b"
+            }
+          ]
+        }
+      ],
+      "flags": 0,
+      "embeds": [],
+      "author": {
+        "display_name_styles": null,
+        "discriminator": "9282",
+        "clan": null,
+        "bot": true,
+        "public_flags": 589824,
+        "username": "Midjourney Bot",
+        "avatar_decoration_data": null,
+        "global_name": null,
+        "collectibles": null,
+        "avatar": "f6ce562a6b4979c4b1cbc5b436d3be76",
+        "primary_guild": null,
+        "id": "936929561302675456"
+      },
+      "channel_id": "996991021718179852",
+      "pinned": false,
+      "mentions": [
+        {
+          "username": "fullstacklogan",
+          "global_name": "Logan",
+          "discriminator": "0",
+          "primary_guild": {
+            "tag": null,
+            "identity_guild_id": null,
+            "identity_enabled": false,
+            "badge": null
+          },
+          "clan": {
+            "tag": null,
+            "identity_guild_id": null,
+            "identity_enabled": false,
+            "badge": null
+          },
+          "display_name_styles": null,
+          "avatar_decoration_data": null,
+          "public_flags": 0,
+          "id": "475201463816290314",
+          "collectibles": null,
+          "avatar": "961821c6f3798244b354e5920c94a3cc"
+        }
+      ]
+    },
+    "code": 200,
+    "jobType": "image",
+    "status": "completed"
+  },
+  {
+    "response": {
+      "position": 0,
+      "type": 20,
+      "application_id": "936929561302675456",
+      "author": {
+        "collectibles": null,
+        "id": "936929561302675456",
+        "primary_guild": null,
+        "username": "Midjourney Bot",
+        "avatar": "f6ce562a6b4979c4b1cbc5b436d3be76",
+        "avatar_decoration_data": null,
+        "discriminator": "9282",
+        "display_name_styles": null,
+        "global_name": null,
+        "public_flags": 589824,
+        "bot": true,
+        "clan": null
+      },
+      "channel_id": "996991021718179852",
+      "nonce": "1218072638073385651",
+      "pinned": false,
+      "tts": false,
+      "webhook_id": "936929561302675456",
+      "attachments": [],
+      "channel_type": 1,
+      "components": [
+        {
+          "components": [
+            {
+              "label": "Resubmit",
+              "style": 2,
+              "type": 2,
+              "custom_id": "MJ::Job::Retry::tSBu8MrZ7zpZYG-MJUuWIQ",
+              "id": 2
+            }
+          ],
+          "id": 1,
+          "type": 1
+        }
+      ],
+      "edited_timestamp": null,
+      "flags": 64,
+      "mention_everyone": false,
+      "mentions": [],
+      "embeds": [
+        {
+          "type": "rich",
+          "color": 16711680,
+          "content_scan_version": 0,
+          "description": "No start frame provided",
+          "footer": {
+            "text": "/imagine Interior of a classic silver flying saucer, vast curved observation window revealing Earth below in brilliant blue and white, a seven-foot-tall Nordic alien with long flowing platinum blonde hair, luminous pale skin with subtle inner glow, large crystalline pale blue eyes, impossibly beautiful androgynous angular features, high cheekbones, wearing flowing silver-white robes, standing in silhouette, back to camera, soft ambient glow from control panels, contemplative atmosphere, wide shot emphasizing scale and isolation --s 50 --video"
+          },
+          "id": "1451113427274698805",
+          "title": "Invalid request"
+        }
+      ],
+      "interaction": {
+        "id": "1451113426209341586",
+        "name": "imagine",
+        "type": 2,
+        "user": {
+          "clan": null,
+          "collectibles": null,
+          "display_name_styles": null,
+          "global_name": "Logan",
+          "id": "475201463816290314",
+          "public_flags": 0,
+          "discriminator": "0",
+          "primary_guild": null,
+          "username": "fullstacklogan",
+          "avatar": "961821c6f3798244b354e5920c94a3cc",
+          "avatar_decoration_data": null
+        }
+      },
+      "timestamp": "2025-12-18T07:26:41.446000+00:00",
+      "content": "",
+      "id": "1451113427274698804",
+      "interaction_metadata": {
+        "id": "1451113426209341586",
+        "name": "imagine",
+        "type": 2,
+        "user": {
+          "primary_guild": null,
+          "public_flags": 0,
+          "avatar_decoration_data": null,
+          "discriminator": "0",
+          "display_name_styles": null,
+          "username": "fullstacklogan",
+          "avatar": "961821c6f3798244b354e5920c94a3cc",
+          "clan": null,
+          "collectibles": null,
+          "global_name": "Logan",
+          "id": "475201463816290314"
+        },
+        "authorizing_integration_owners": {
+          "0": "0"
+        },
+        "command_type": 1
+      },
+      "mention_roles": []
+    },
+    "updated": "2025-12-18T07:26:41.420Z",
+    "error": "Invalid request",
+    "errorDetails": "No start frame provided",
+    "jobid": "j1218072638073385651v-u2163-c996991021718179852-bot:midjourney",
+    "status": "moderated",
+    "verb": "imagine",
+    "code": 422,
+    "created": "2025-12-18T07:26:38.112Z",
+    "jobType": "video",
+    "request": {
+      "prompt": "Interior of a classic silver flying saucer, vast curved observation window revealing Earth below in brilliant blue and white, a seven-foot-tall Nordic alien with long flowing platinum blonde hair, luminous pale skin with subtle inner glow, large crystalline pale blue eyes, impossibly beautiful androgynous angular features, high cheekbones, wearing flowing silver-white robes, standing in silhouette, back to camera, soft ambient glow from control panels, contemplative atmosphere, wide shot emphasizing scale and isolation --s 50 --video",
+      "stream": false
+    }
+  },
+  {
+    "errorDetails": "No start frame provided",
+    "request": {
+      "stream": false,
+      "prompt": "A mid-30s man with medium-length wavy black hair parted in the middle, sharp angular features, defined cheekbones, strong jawline, intense amber eyes, wearing a black leather jacket over a white t-shirt and blue jeans, waking in a sparse bedroom, early morning light filtering through thin curtains, dust particles suspended in golden rays, rumpled white sheets, shallow depth of field, intimate close-up from bed level, melancholic stillness, photorealistic cinematography --s 50 --video"
+    },
+    "status": "moderated",
+    "error": "Invalid request",
+    "jobType": "video",
+    "jobid": "j1218072622473433807v-u2163-c996991021718179852-bot:midjourney",
+    "response": {
+      "edited_timestamp": null,
+      "embeds": [
+        {
+          "description": "No start frame provided",
+          "footer": {
+            "text": "/imagine A mid-30s man with medium-length wavy black hair parted in the middle, sharp angular features, defined cheekbones, strong jawline, intense amber eyes, wearing a black leather jacket over a white t-shirt and blue jeans, waking in a sparse bedroom, early morning light filtering through thin curtains, dust particles suspended in golden rays, rumpled white sheets, shallow depth of field, intimate close-up from bed level, melancholic stillness, photorealistic cinematography --s 50 --video"
+          },
+          "id": "1451113356097490987",
+          "title": "Invalid request",
+          "type": "rich",
+          "color": 16711680,
+          "content_scan_version": 0
+        }
+      ],
+      "flags": 64,
+      "interaction": {
+        "user": {
+          "avatar": "961821c6f3798244b354e5920c94a3cc",
+          "avatar_decoration_data": null,
+          "clan": null,
+          "collectibles": null,
+          "display_name_styles": null,
+          "primary_guild": null,
+          "public_flags": 0,
+          "discriminator": "0",
+          "global_name": "Logan",
+          "id": "475201463816290314",
+          "username": "fullstacklogan"
+        },
+        "id": "1451113355291922544",
+        "name": "imagine",
+        "type": 2
+      },
+      "mention_everyone": false,
+      "mention_roles": [],
+      "pinned": false,
+      "type": 20,
+      "attachments": [],
+      "content": "",
+      "id": "1451113356097490986",
+      "position": 0,
+      "timestamp": "2025-12-18T07:26:24.476000+00:00",
+      "tts": false,
+      "webhook_id": "936929561302675456",
+      "author": {
+        "avatar_decoration_data": null,
+        "bot": true,
+        "collectibles": null,
+        "discriminator": "9282",
+        "display_name_styles": null,
+        "global_name": null,
+        "avatar": "f6ce562a6b4979c4b1cbc5b436d3be76",
+        "clan": null,
+        "id": "936929561302675456",
+        "primary_guild": null,
+        "public_flags": 589824,
+        "username": "Midjourney Bot"
+      },
+      "channel_id": "996991021718179852",
+      "channel_type": 1,
+      "interaction_metadata": {
+        "authorizing_integration_owners": {
+          "0": "0"
+        },
+        "command_type": 1,
+        "id": "1451113355291922544",
+        "name": "imagine",
+        "type": 2,
+        "user": {
+          "avatar": "961821c6f3798244b354e5920c94a3cc",
+          "clan": null,
+          "discriminator": "0",
+          "display_name_styles": null,
+          "global_name": "Logan",
+          "id": "475201463816290314",
+          "public_flags": 0,
+          "avatar_decoration_data": null,
+          "collectibles": null,
+          "primary_guild": null,
+          "username": "fullstacklogan"
+        }
+      },
+      "mentions": [],
+      "application_id": "936929561302675456",
+      "components": [
+        {
+          "components": [
+            {
+              "id": 2,
+              "label": "Resubmit",
+              "style": 2,
+              "type": 2,
+              "custom_id": "MJ::Job::Retry::Fr0BsUlxCQP2ZYakKRKyjA"
+            }
+          ],
+          "id": 1,
+          "type": 1
+        }
+      ],
+      "nonce": "1218072622473433807"
+    },
+    "updated": "2025-12-18T07:26:24.496Z",
+    "verb": "imagine",
+    "code": 422,
+    "created": "2025-12-18T07:26:22.512Z"
+  },
+  {
+    "response": {
+      "author": {
+        "avatar_decoration_data": null,
+        "avatar": "f6ce562a6b4979c4b1cbc5b436d3be76",
+        "username": "Midjourney Bot",
+        "public_flags": 589824,
+        "collectibles": null,
+        "bot": true,
+        "id": "936929561302675456",
+        "global_name": null,
+        "discriminator": "9282",
+        "primary_guild": null,
+        "display_name_styles": null,
+        "clan": null
+      },
+      "flags": 0,
+      "channel_id": "996991021718179852",
+      "timestamp": "2025-12-18T07:25:39.376000+00:00",
+      "pinned": false,
+      "tts": false,
+      "type": 0,
+      "mention_roles": [],
+      "channel_type": 1,
+      "buttons": [
+        "U1",
+        "U2",
+        "U3",
+        "U4",
+        "\ud83d\udd04",
+        "V1",
+        "V2",
+        "V3",
+        "V4"
+      ],
+      "mention_everyone": false,
+      "mentions": [
+        {
+          "clan": {
+            "tag": null,
+            "identity_guild_id": null,
+            "identity_enabled": false,
+            "badge": null
+          },
+          "username": "fullstacklogan",
+          "public_flags": 0,
+          "global_name": "Logan",
+          "collectibles": null,
+          "avatar": "961821c6f3798244b354e5920c94a3cc",
+          "id": "475201463816290314",
+          "avatar_decoration_data": null,
+          "primary_guild": {
+            "identity_enabled": false,
+            "badge": null,
+            "tag": null,
+            "identity_guild_id": null
+          },
+          "display_name_styles": null,
+          "discriminator": "0"
+        }
+      ],
+      "attachments": [
+        {
+          "placeholder_version": 1,
+          "placeholder": "D9cFDIKEB1mHqUVndlaPYukJtw==",
+          "id": "1451113166456094801",
+          "content_scan_version": 3,
+          "size": 7172686,
+          "proxy_url": "https://media.discordapp.net/attachments/996991021718179852/1451113166456094801/fullstacklogan_Interior_of_a_classic_silver_flying_saucer_vast__3b7b282f-25cd-49b8-88c8-10aff1ac6a88.png?ex=6944fdf3&is=6943ac73&hm=0a1cf87e65cf6072e328b74a867674e8722c8175b11baf3cb614a8b71f15b909&",
+          "width": 2912,
+          "height": 1632,
+          "url": "https://cdn.discordapp.com/attachments/996991021718179852/1451113166456094801/fullstacklogan_Interior_of_a_classic_silver_flying_saucer_vast__3b7b282f-25cd-49b8-88c8-10aff1ac6a88.png?ex=6944fdf3&is=6943ac73&hm=0a1cf87e65cf6072e328b74a867674e8722c8175b11baf3cb614a8b71f15b909&",
+          "filename": "fullstacklogan_Interior_of_a_classic_silver_flying_saucer_vast__3b7b282f-25cd-49b8-88c8-10aff1ac6a88.png",
+          "content_type": "image/png"
+        }
+      ],
+      "edited_timestamp": null,
+      "content": "**Interior of a classic silver flying saucer, vast curved observation window revealing Earth below in brilliant blue and white, a seven-foot-tall Nordic alien with long flowing platinum blonde hair, luminous pale skin with subtle inner glow, large crystalline pale blue eyes, impossibly beautiful androgynous angular features, high cheekbones, wearing flowing silver-white robes, standing in silhouette, back to camera, soft ambient glow from control panels, contemplative atmosphere, wide shot emphasizing scale and isolation --s 50 --ar 16:9 --p lqg2fke --raw** - <@475201463816290314> (fast)\n-# Create, explore, and organize on [midjourney.com](<https://midjourney.com/imagine?from_discord=1>)",
+      "id": "1451113166934380677",
+      "embeds": [],
+      "components": [
+        {
+          "components": [
+            {
+              "style": 2,
+              "label": "U1",
+              "id": 2,
+              "custom_id": "MJ::JOB::upsample::1::3b7b282f-25cd-49b8-88c8-10aff1ac6a88",
+              "type": 2
+            },
+            {
+              "id": 3,
+              "custom_id": "MJ::JOB::upsample::2::3b7b282f-25cd-49b8-88c8-10aff1ac6a88",
+              "type": 2,
+              "style": 2,
+              "label": "U2"
+            },
+            {
+              "label": "U3",
+              "id": 4,
+              "custom_id": "MJ::JOB::upsample::3::3b7b282f-25cd-49b8-88c8-10aff1ac6a88",
+              "type": 2,
+              "style": 2
+            },
+            {
+              "type": 2,
+              "style": 2,
+              "label": "U4",
+              "id": 5,
+              "custom_id": "MJ::JOB::upsample::4::3b7b282f-25cd-49b8-88c8-10aff1ac6a88"
+            },
+            {
+              "type": 2,
+              "style": 2,
+              "id": 6,
+              "emoji": {
+                "name": "\ud83d\udd04"
+              },
+              "custom_id": "MJ::JOB::reroll::0::3b7b282f-25cd-49b8-88c8-10aff1ac6a88::SOLO"
+            }
+          ],
+          "type": 1,
+          "id": 1
+        },
+        {
+          "type": 1,
+          "id": 7,
+          "components": [
+            {
+              "type": 2,
+              "style": 2,
+              "label": "V1",
+              "id": 8,
+              "custom_id": "MJ::JOB::variation::1::3b7b282f-25cd-49b8-88c8-10aff1ac6a88"
+            },
+            {
+              "style": 2,
+              "label": "V2",
+              "id": 9,
+              "custom_id": "MJ::JOB::variation::2::3b7b282f-25cd-49b8-88c8-10aff1ac6a88",
+              "type": 2
+            },
+            {
+              "type": 2,
+              "style": 2,
+              "label": "V3",
+              "id": 10,
+              "custom_id": "MJ::JOB::variation::3::3b7b282f-25cd-49b8-88c8-10aff1ac6a88"
+            },
+            {
+              "style": 2,
+              "label": "V4",
+              "id": 11,
+              "custom_id": "MJ::JOB::variation::4::3b7b282f-25cd-49b8-88c8-10aff1ac6a88",
+              "type": 2
+            },
+            {
+              "url": "https://www.midjourney.com/jobs/3b7b282f-25cd-49b8-88c8-10aff1ac6a88",
+              "type": 2,
+              "style": 5,
+              "label": "\u200b",
+              "id": 12
+            }
+          ]
+        }
+      ],
+      "imageUx": [
+        {
+          "id": 1,
+          "url": "https://cdn.midjourney.com/3b7b282f-25cd-49b8-88c8-10aff1ac6a88/0_0.jpeg"
+        },
+        {
+          "id": 2,
+          "url": "https://cdn.midjourney.com/3b7b282f-25cd-49b8-88c8-10aff1ac6a88/0_1.jpeg"
+        },
+        {
+          "url": "https://cdn.midjourney.com/3b7b282f-25cd-49b8-88c8-10aff1ac6a88/0_2.jpeg",
+          "id": 3
+        },
+        {
+          "url": "https://cdn.midjourney.com/3b7b282f-25cd-49b8-88c8-10aff1ac6a88/0_3.jpeg",
+          "id": 4
+        }
+      ]
+    },
+    "jobid": "j1218072509579874386i-u2163-c996991021718179852-bot:midjourney",
+    "status": "completed",
+    "code": 200,
+    "created": "2025-12-18T07:25:09.618Z",
+    "verb": "imagine",
+    "jobType": "image",
+    "request": {
+      "stream": false,
+      "prompt": "Interior of a classic silver flying saucer, vast curved observation window revealing Earth below in brilliant blue and white, a seven-foot-tall Nordic alien with long flowing platinum blonde hair, luminous pale skin with subtle inner glow, large crystalline pale blue eyes, impossibly beautiful androgynous angular features, high cheekbones, wearing flowing silver-white robes, standing in silhouette, back to camera, soft ambient glow from control panels, contemplative atmosphere, wide shot emphasizing scale and isolation --s 50"
+    },
+    "updated": "2025-12-18T07:25:39.751Z"
+  },
+  {
+    "jobid": "j1218072501977954553i-u2163-c996991021718179852-bot:midjourney",
+    "verb": "imagine",
+    "jobType": "image",
+    "code": 200,
+    "updated": "2025-12-18T07:25:33.255Z",
+    "response": {
+      "channel_id": "996991021718179852",
+      "flags": 0,
+      "edited_timestamp": null,
+      "imageUx": [
+        {
+          "id": 1,
+          "url": "https://cdn.midjourney.com/5bea103e-c273-410c-b61d-ba72792922ea/0_0.jpeg"
+        },
+        {
+          "id": 2,
+          "url": "https://cdn.midjourney.com/5bea103e-c273-410c-b61d-ba72792922ea/0_1.jpeg"
+        },
+        {
+          "id": 3,
+          "url": "https://cdn.midjourney.com/5bea103e-c273-410c-b61d-ba72792922ea/0_2.jpeg"
+        },
+        {
+          "id": 4,
+          "url": "https://cdn.midjourney.com/5bea103e-c273-410c-b61d-ba72792922ea/0_3.jpeg"
+        }
+      ],
+      "components": [
+        {
+          "components": [
+            {
+              "style": 2,
+              "label": "U1",
+              "id": 2,
+              "custom_id": "MJ::JOB::upsample::1::5bea103e-c273-410c-b61d-ba72792922ea",
+              "type": 2
+            },
+            {
+              "custom_id": "MJ::JOB::upsample::2::5bea103e-c273-410c-b61d-ba72792922ea",
+              "type": 2,
+              "style": 2,
+              "label": "U2",
+              "id": 3
+            },
+            {
+              "custom_id": "MJ::JOB::upsample::3::5bea103e-c273-410c-b61d-ba72792922ea",
+              "type": 2,
+              "style": 2,
+              "label": "U3",
+              "id": 4
+            },
+            {
+              "id": 5,
+              "custom_id": "MJ::JOB::upsample::4::5bea103e-c273-410c-b61d-ba72792922ea",
+              "type": 2,
+              "style": 2,
+              "label": "U4"
+            },
+            {
+              "emoji": {
+                "name": "\ud83d\udd04"
+              },
+              "custom_id": "MJ::JOB::reroll::0::5bea103e-c273-410c-b61d-ba72792922ea::SOLO",
+              "type": 2,
+              "style": 2,
+              "id": 6
+            }
+          ],
+          "type": 1,
+          "id": 1
+        },
+        {
+          "components": [
+            {
+              "style": 2,
+              "label": "V1",
+              "id": 8,
+              "custom_id": "MJ::JOB::variation::1::5bea103e-c273-410c-b61d-ba72792922ea",
+              "type": 2
+            },
+            {
+              "type": 2,
+              "style": 2,
+              "label": "V2",
+              "id": 9,
+              "custom_id": "MJ::JOB::variation::2::5bea103e-c273-410c-b61d-ba72792922ea"
+            },
+            {
+              "id": 10,
+              "custom_id": "MJ::JOB::variation::3::5bea103e-c273-410c-b61d-ba72792922ea",
+              "type": 2,
+              "style": 2,
+              "label": "V3"
+            },
+            {
+              "custom_id": "MJ::JOB::variation::4::5bea103e-c273-410c-b61d-ba72792922ea",
+              "type": 2,
+              "style": 2,
+              "label": "V4",
+              "id": 11
+            },
+            {
+              "label": "\u200b",
+              "id": 12,
+              "url": "https://www.midjourney.com/jobs/5bea103e-c273-410c-b61d-ba72792922ea",
+              "type": 2,
+              "style": 5
+            }
+          ],
+          "type": 1,
+          "id": 7
+        }
+      ],
+      "attachments": [
+        {
+          "placeholder": "kxgKDIKllsZqcJRoc55YL9bWcA==",
+          "height": 1632,
+          "content_type": "image/png",
+          "url": "https://cdn.discordapp.com/attachments/996991021718179852/1451113139461689435/fullstacklogan_A_mid-30s_man_with_medium-length_wavy_black_hair_5bea103e-c273-410c-b61d-ba72792922ea.png?ex=6944fdec&is=6943ac6c&hm=4fbed2929aedcab8d32be036eecd7bb1b5d9485e3faf290ebe73ca4760bacbd2&",
+          "size": 5690978,
+          "placeholder_version": 1,
+          "filename": "fullstacklogan_A_mid-30s_man_with_medium-length_wavy_black_hair_5bea103e-c273-410c-b61d-ba72792922ea.png",
+          "width": 2912,
+          "proxy_url": "https://media.discordapp.net/attachments/996991021718179852/1451113139461689435/fullstacklogan_A_mid-30s_man_with_medium-length_wavy_black_hair_5bea103e-c273-410c-b61d-ba72792922ea.png?ex=6944fdec&is=6943ac6c&hm=4fbed2929aedcab8d32be036eecd7bb1b5d9485e3faf290ebe73ca4760bacbd2&",
+          "id": "1451113139461689435",
+          "content_scan_version": 3
+        }
+      ],
+      "type": 0,
+      "mention_everyone": false,
+      "author": {
+        "primary_guild": null,
+        "id": "936929561302675456",
+        "username": "Midjourney Bot",
+        "public_flags": 589824,
+        "global_name": null,
+        "collectibles": null,
+        "bot": true,
+        "avatar_decoration_data": null,
+        "avatar": "f6ce562a6b4979c4b1cbc5b436d3be76",
+        "display_name_styles": null,
+        "discriminator": "9282",
+        "clan": null
+      },
+      "embeds": [],
+      "tts": false,
+      "content": "**A mid-30s man with medium-length wavy black hair parted in the middle, sharp angular features, defined cheekbones, strong jawline, intense amber eyes, wearing a black leather jacket over a white t-shirt and blue jeans, waking in a sparse bedroom, early morning light filtering through thin curtains, dust particles suspended in golden rays, rumpled white sheets, shallow depth of field, intimate close-up from bed level, melancholic stillness, photorealistic cinematography --s 50 --ar 16:9 --p lqg2fke --raw** - <@475201463816290314> (fast)\n-# Create, explore, and organize on [midjourney.com](<https://midjourney.com/imagine?from_discord=1>)",
+      "timestamp": "2025-12-18T07:25:32.952000+00:00",
+      "buttons": [
+        "U1",
+        "U2",
+        "U3",
+        "U4",
+        "\ud83d\udd04",
+        "V1",
+        "V2",
+        "V3",
+        "V4"
+      ],
+      "channel_type": 1,
+      "mention_roles": [],
+      "id": "1451113139989909700",
+      "pinned": false,
+      "mentions": [
+        {
+          "avatar": "961821c6f3798244b354e5920c94a3cc",
+          "primary_guild": {
+            "tag": null,
+            "identity_guild_id": null,
+            "identity_enabled": false,
+            "badge": null
+          },
+          "id": "475201463816290314",
+          "display_name_styles": null,
+          "clan": {
+            "identity_guild_id": null,
+            "identity_enabled": false,
+            "badge": null,
+            "tag": null
+          },
+          "public_flags": 0,
+          "global_name": "Logan",
+          "collectibles": null,
+          "username": "fullstacklogan",
+          "avatar_decoration_data": null,
+          "discriminator": "0"
+        }
+      ]
+    },
+    "created": "2025-12-18T07:25:02.048Z",
+    "request": {
+      "stream": false,
+      "prompt": "A mid-30s man with medium-length wavy black hair parted in the middle, sharp angular features, defined cheekbones, strong jawline, intense amber eyes, wearing a black leather jacket over a white t-shirt and blue jeans, waking in a sparse bedroom, early morning light filtering through thin curtains, dust particles suspended in golden rays, rumpled white sheets, shallow depth of field, intimate close-up from bed level, melancholic stillness, photorealistic cinematography --s 50"
+    },
+    "status": "completed"
+  },
+  {
+    "errorDetails": "No start frame provided",
+    "jobType": "video",
+    "response": {
+      "author": {
+        "primary_guild": null,
+        "avatar_decoration_data": null,
+        "collectibles": null,
+        "global_name": null,
+        "id": "936929561302675456",
+        "public_flags": 589824,
+        "username": "Midjourney Bot",
+        "avatar": "f6ce562a6b4979c4b1cbc5b436d3be76",
+        "bot": true,
+        "clan": null,
+        "discriminator": "9282",
+        "display_name_styles": null
+      },
+      "tts": false,
+      "webhook_id": "936929561302675456",
+      "channel_id": "996991021718179852",
+      "channel_type": 1,
+      "edited_timestamp": null,
+      "id": "1451110558337077331",
+      "mentions": [],
+      "nonce": "1218071515178492130",
+      "attachments": [],
+      "content": "",
+      "interaction": {
+        "id": "1451110556722532477",
+        "name": "imagine",
+        "type": 2,
+        "user": {
+          "display_name_styles": null,
+          "public_flags": 0,
+          "avatar": "961821c6f3798244b354e5920c94a3cc",
+          "avatar_decoration_data": null,
+          "clan": null,
+          "global_name": "Logan",
+          "id": "475201463816290314",
+          "primary_guild": null,
+          "username": "fullstacklogan",
+          "collectibles": null,
+          "discriminator": "0"
+        }
+      },
+      "mention_roles": [],
+      "pinned": false,
+      "type": 20,
+      "application_id": "936929561302675456",
+      "components": [
+        {
+          "components": [
+            {
+              "type": 2,
+              "custom_id": "MJ::Job::Retry::GfU4xHhtJOFEQVwC2v-uqQ",
+              "id": 2,
+              "label": "Resubmit",
+              "style": 2
+            }
+          ],
+          "id": 1,
+          "type": 1
+        }
+      ],
+      "embeds": [
+        {
+          "content_scan_version": 0,
+          "description": "No start frame provided",
+          "footer": {
+            "text": "/imagine Elegant pale hand with long fingers pressed flat against curved glass belonging to a seven-foot-tall Nordic alien with luminous pale skin with subtle inner glow, Earth visible beyond in soft focus, condensation forming around the palm, extreme close-up, cool blue ambient light from within the saucer, profound longing captured in gesture alone --s 50 --video"
+          },
+          "id": "1451110558337077332",
+          "title": "Invalid request",
+          "type": "rich",
+          "color": 16711680
+        }
+      ],
+      "flags": 64,
+      "interaction_metadata": {
+        "type": 2,
+        "user": {
+          "primary_guild": null,
+          "public_flags": 0,
+          "clan": null,
+          "collectibles": null,
+          "display_name_styles": null,
+          "id": "475201463816290314",
+          "username": "fullstacklogan",
+          "avatar": "961821c6f3798244b354e5920c94a3cc",
+          "avatar_decoration_data": null,
+          "discriminator": "0",
+          "global_name": "Logan"
+        },
+        "authorizing_integration_owners": {
+          "0": "0"
+        },
+        "command_type": 1,
+        "id": "1451110556722532477",
+        "name": "imagine"
+      },
+      "mention_everyone": false,
+      "position": 0,
+      "timestamp": "2025-12-18T07:15:17.438000+00:00"
+    },
+    "verb": "imagine",
+    "code": 422,
+    "created": "2025-12-18T07:15:15.212Z",
+    "error": "Invalid request",
+    "jobid": "j1218071515178492130v-u2163-c996991021718179852-bot:midjourney",
+    "request": {
+      "prompt": "Elegant pale hand with long fingers pressed flat against curved glass belonging to a seven-foot-tall Nordic alien with luminous pale skin with subtle inner glow, Earth visible beyond in soft focus, condensation forming around the palm, extreme close-up, cool blue ambient light from within the saucer, profound longing captured in gesture alone --s 50 --video",
+      "stream": false
+    },
+    "status": "moderated",
+    "updated": "2025-12-18T07:15:17.476Z"
+  },
+  {
+    "request": {
+      "prompt": "Elegant pale hand with long fingers pressed flat against curved glass belonging to a seven-foot-tall Nordic alien with luminous pale skin with subtle inner glow, Earth visible beyond in soft focus, condensation forming around the palm, extreme close-up, cool blue ambient light from within the saucer, profound longing captured in gesture alone --s 50",
+      "stream": false
+    },
+    "updated": "2025-12-18T07:14:36.687Z",
+    "response": {
+      "channel_id": "996991021718179852",
+      "buttons": [
+        "U1",
+        "U2",
+        "U3",
+        "U4",
+        "\ud83d\udd04",
+        "V1",
+        "V2",
+        "V3",
+        "V4"
+      ],
+      "channel_type": 1,
+      "mention_roles": [],
+      "edited_timestamp": null,
+      "content": "**Elegant pale hand with long fingers pressed flat against curved glass belonging to a seven-foot-tall Nordic alien with luminous pale skin with subtle inner glow, Earth visible beyond in soft focus, condensation forming around the palm, extreme close-up, cool blue ambient light from within the saucer, profound longing captured in gesture alone --s 50 --ar 16:9 --p lqg2fke --raw** - <@475201463816290314> (fast)",
+      "components": [
+        {
+          "type": 1,
+          "id": 1,
+          "components": [
+            {
+              "style": 2,
+              "label": "U1",
+              "id": 2,
+              "custom_id": "MJ::JOB::upsample::1::9fad3062-9c49-4705-a55e-b62180e4d94f",
+              "type": 2
+            },
+            {
+              "style": 2,
+              "label": "U2",
+              "id": 3,
+              "custom_id": "MJ::JOB::upsample::2::9fad3062-9c49-4705-a55e-b62180e4d94f",
+              "type": 2
+            },
+            {
+              "custom_id": "MJ::JOB::upsample::3::9fad3062-9c49-4705-a55e-b62180e4d94f",
+              "type": 2,
+              "style": 2,
+              "label": "U3",
+              "id": 4
+            },
+            {
+              "label": "U4",
+              "id": 5,
+              "custom_id": "MJ::JOB::upsample::4::9fad3062-9c49-4705-a55e-b62180e4d94f",
+              "type": 2,
+              "style": 2
+            },
+            {
+              "custom_id": "MJ::JOB::reroll::0::9fad3062-9c49-4705-a55e-b62180e4d94f::SOLO",
+              "type": 2,
+              "style": 2,
+              "id": 6,
+              "emoji": {
+                "name": "\ud83d\udd04"
+              }
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "id": 7,
+          "components": [
+            {
+              "type": 2,
+              "style": 2,
+              "label": "V1",
+              "id": 8,
+              "custom_id": "MJ::JOB::variation::1::9fad3062-9c49-4705-a55e-b62180e4d94f"
+            },
+            {
+              "type": 2,
+              "style": 2,
+              "label": "V2",
+              "id": 9,
+              "custom_id": "MJ::JOB::variation::2::9fad3062-9c49-4705-a55e-b62180e4d94f"
+            },
+            {
+              "type": 2,
+              "style": 2,
+              "label": "V3",
+              "id": 10,
+              "custom_id": "MJ::JOB::variation::3::9fad3062-9c49-4705-a55e-b62180e4d94f"
+            },
+            {
+              "type": 2,
+              "style": 2,
+              "label": "V4",
+              "id": 11,
+              "custom_id": "MJ::JOB::variation::4::9fad3062-9c49-4705-a55e-b62180e4d94f"
+            },
+            {
+              "url": "https://www.midjourney.com/jobs/9fad3062-9c49-4705-a55e-b62180e4d94f",
+              "type": 2,
+              "style": 5,
+              "label": "\u200b",
+              "id": 12
+            }
+          ]
+        }
+      ],
+      "flags": 0,
+      "embeds": [],
+      "author": {
+        "discriminator": "9282",
+        "clan": null,
+        "bot": true,
+        "primary_guild": null,
+        "id": "936929561302675456",
+        "display_name_styles": null,
+        "collectibles": null,
+        "avatar_decoration_data": null,
+        "avatar": "f6ce562a6b4979c4b1cbc5b436d3be76",
+        "username": "Midjourney Bot",
+        "public_flags": 589824,
+        "global_name": null
+      },
+      "imageUx": [
+        {
+          "id": 1,
+          "url": "https://cdn.midjourney.com/9fad3062-9c49-4705-a55e-b62180e4d94f/0_0.jpeg"
+        },
+        {
+          "url": "https://cdn.midjourney.com/9fad3062-9c49-4705-a55e-b62180e4d94f/0_1.jpeg",
+          "id": 2
+        },
+        {
+          "id": 3,
+          "url": "https://cdn.midjourney.com/9fad3062-9c49-4705-a55e-b62180e4d94f/0_2.jpeg"
+        },
+        {
+          "id": 4,
+          "url": "https://cdn.midjourney.com/9fad3062-9c49-4705-a55e-b62180e4d94f/0_3.jpeg"
+        }
+      ],
+      "timestamp": "2025-12-18T07:14:36.259000+00:00",
+      "mentions": [
+        {
+          "username": "fullstacklogan",
+          "public_flags": 0,
+          "global_name": "Logan",
+          "collectibles": null,
+          "clan": {
+            "tag": null,
+            "identity_guild_id": null,
+            "identity_enabled": false,
+            "badge": null
+          },
+          "avatar_decoration_data": null,
+          "avatar": "961821c6f3798244b354e5920c94a3cc",
+          "primary_guild": {
+            "tag": null,
+            "identity_guild_id": null,
+            "identity_enabled": false,
+            "badge": null
+          },
+          "id": "475201463816290314",
+          "display_name_styles": null,
+          "discriminator": "0"
+        }
+      ],
+      "mention_everyone": false,
+      "id": "1451110385619832915",
+      "attachments": [
+        {
+          "placeholder_version": 1,
+          "url": "https://cdn.discordapp.com/attachments/996991021718179852/1451110385326358613/fullstacklogan_Elegant_pale_hand_with_long_fingers_pressed_flat_9fad3062-9c49-4705-a55e-b62180e4d94f.png?ex=6944fb5c&is=6943a9dc&hm=898b87e0769c070e8253449d2d5664b0761dc1ecc560112d56b5736318e95d45&",
+          "proxy_url": "https://media.discordapp.net/attachments/996991021718179852/1451110385326358613/fullstacklogan_Elegant_pale_hand_with_long_fingers_pressed_flat_9fad3062-9c49-4705-a55e-b62180e4d94f.png?ex=6944fb5c&is=6943a9dc&hm=898b87e0769c070e8253449d2d5664b0761dc1ecc560112d56b5736318e95d45&",
+          "placeholder": "krYJDIJ2CZdrfId5io/J+nffjA==",
+          "id": "1451110385326358613",
+          "height": 1632,
+          "filename": "fullstacklogan_Elegant_pale_hand_with_long_fingers_pressed_flat_9fad3062-9c49-4705-a55e-b62180e4d94f.png",
+          "content_type": "image/png",
+          "content_scan_version": 3,
+          "width": 2912,
+          "size": 6265067
+        }
+      ],
+      "type": 0,
+      "tts": false,
+      "pinned": false
+    },
+    "jobid": "j1218071405834037367i-u2163-c996991021718179852-bot:midjourney",
+    "code": 200,
+    "verb": "imagine",
+    "jobType": "image",
+    "status": "completed",
+    "created": "2025-12-18T07:14:05.873Z"
+  },
+  {
+    "updated": "2025-12-18T07:14:00.067Z",
+    "verb": "imagine",
+    "code": 422,
+    "created": "2025-12-18T07:13:58.262Z",
+    "error": "Invalid request",
+    "errorDetails": "No start frame provided",
+    "request": {
+      "prompt": "A mid-30s man with medium-length wavy black hair parted in the middle, sharp angular features, defined cheekbones, strong jawline, intense amber eyes, wearing a black leather jacket over a white t-shirt and blue jeans, sitting alone at a kitchen table, morning coffee steam rising, harsh fluorescent light mixing with pale dawn through a window, empty chair across the table, 35mm lens perspective, mundane domestic isolation, photorealistic detail in textures and light --s 50 --video",
+      "stream": false
+    },
+    "jobType": "video",
+    "jobid": "j1218071358198415370v-u2163-c996991021718179852-bot:midjourney",
+    "response": {
+      "content": "",
+      "edited_timestamp": null,
+      "interaction": {
+        "id": "1451110232938909736",
+        "name": "imagine",
+        "type": 2,
+        "user": {
+          "discriminator": "0",
+          "display_name_styles": null,
+          "global_name": "Logan",
+          "id": "475201463816290314",
+          "avatar": "961821c6f3798244b354e5920c94a3cc",
+          "clan": null,
+          "collectibles": null,
+          "primary_guild": null,
+          "public_flags": 0,
+          "username": "fullstacklogan",
+          "avatar_decoration_data": null
+        }
+      },
+      "mention_roles": [],
+      "timestamp": "2025-12-18T07:14:00.043000+00:00",
+      "tts": false,
+      "author": {
+        "avatar_decoration_data": null,
+        "bot": true,
+        "clan": null,
+        "discriminator": "9282",
+        "display_name_styles": null,
+        "global_name": null,
+        "id": "936929561302675456",
+        "primary_guild": null,
+        "avatar": "f6ce562a6b4979c4b1cbc5b436d3be76",
+        "collectibles": null,
+        "public_flags": 589824,
+        "username": "Midjourney Bot"
+      },
+      "channel_id": "996991021718179852",
+      "components": [
+        {
+          "components": [
+            {
+              "type": 2,
+              "custom_id": "MJ::Job::Retry::GaqozBHlTgJwSj8AyJkfNg",
+              "id": 2,
+              "label": "Resubmit",
+              "style": 2
+            }
+          ],
+          "id": 1,
+          "type": 1
+        }
+      ],
+      "flags": 64,
+      "interaction_metadata": {
+        "id": "1451110232938909736",
+        "name": "imagine",
+        "type": 2,
+        "user": {
+          "discriminator": "0",
+          "global_name": "Logan",
+          "id": "475201463816290314",
+          "primary_guild": null,
+          "public_flags": 0,
+          "username": "fullstacklogan",
+          "avatar": "961821c6f3798244b354e5920c94a3cc",
+          "clan": null,
+          "collectibles": null,
+          "display_name_styles": null,
+          "avatar_decoration_data": null
+        },
+        "authorizing_integration_owners": {
+          "0": "0"
+        },
+        "command_type": 1
+      },
+      "mentions": [],
+      "embeds": [
+        {
+          "type": "rich",
+          "color": 16711680,
+          "content_scan_version": 0,
+          "description": "No start frame provided",
+          "footer": {
+            "text": "/imagine A mid-30s man with medium-length wavy black hair parted in the middle, sharp angular features, defined cheekbones, strong jawline, intense amber eyes, wearing a black leather jacket over a white t-shirt and blue jeans, sitting alone at a kitchen table, morning coffee steam rising, harsh fluorescent light mixing with pale dawn through a window, empty chair across the table, 35mm lens perspective, mundane domestic isolation, photorealistic detail in textures and light --s 50 --video"
+          },
+          "id": "1451110233719181375",
+          "title": "Invalid request"
+        }
+      ],
+      "id": "1451110233719181374",
+      "mention_everyone": false,
+      "pinned": false,
+      "position": 0,
+      "application_id": "936929561302675456",
+      "channel_type": 1,
+      "nonce": "1218071358198415370",
+      "type": 20,
+      "webhook_id": "936929561302675456",
+      "attachments": []
+    },
+    "status": "moderated"
+  },
+  {
+    "request": {
+      "stream": false,
+      "prompt": "A mid-30s man with medium-length wavy black hair parted in the middle, sharp angular features, defined cheekbones, strong jawline, intense amber eyes, wearing a black leather jacket over a white t-shirt and blue jeans, sitting alone at a kitchen table, morning coffee steam rising, harsh fluorescent light mixing with pale dawn through a window, empty chair across the table, 35mm lens perspective, mundane domestic isolation, photorealistic detail in textures and light --s 50"
+    },
+    "verb": "imagine",
+    "status": "completed",
+    "created": "2025-12-18T07:12:56.437Z",
+    "updated": "2025-12-18T07:13:26.071Z",
+    "response": {
+      "content": "**A mid-30s man with medium-length wavy black hair parted in the middle, sharp angular features, defined cheekbones, strong jawline, intense amber eyes, wearing a black leather jacket over a white t-shirt and blue jeans, sitting alone at a kitchen table, morning coffee steam rising, harsh fluorescent light mixing with pale dawn through a window, empty chair across the table, 35mm lens perspective, mundane domestic isolation, photorealistic detail in textures and light --s 50 --ar 16:9 --p lqg2fke --raw** - <@475201463816290314> (fast)\n-# Create, explore, and organize on [midjourney.com](<https://midjourney.com/imagine?from_discord=1>)",
+      "type": 0,
+      "tts": false,
+      "pinned": false,
+      "mention_roles": [],
+      "mentions": [
+        {
+          "avatar_decoration_data": null,
+          "public_flags": 0,
+          "display_name_styles": null,
+          "avatar": "961821c6f3798244b354e5920c94a3cc",
+          "username": "fullstacklogan",
+          "primary_guild": {
+            "badge": null,
+            "tag": null,
+            "identity_guild_id": null,
+            "identity_enabled": false
+          },
+          "id": "475201463816290314",
+          "global_name": "Logan",
+          "discriminator": "0",
+          "collectibles": null,
+          "clan": {
+            "tag": null,
+            "identity_guild_id": null,
+            "identity_enabled": false,
+            "badge": null
+          }
+        }
+      ],
+      "components": [
+        {
+          "components": [
+            {
+              "custom_id": "MJ::JOB::upsample::1::387fae90-1e87-40fe-a292-a13a67c690bd",
+              "type": 2,
+              "style": 2,
+              "label": "U1",
+              "id": 2
+            },
+            {
+              "type": 2,
+              "style": 2,
+              "label": "U2",
+              "id": 3,
+              "custom_id": "MJ::JOB::upsample::2::387fae90-1e87-40fe-a292-a13a67c690bd"
+            },
+            {
+              "id": 4,
+              "custom_id": "MJ::JOB::upsample::3::387fae90-1e87-40fe-a292-a13a67c690bd",
+              "type": 2,
+              "style": 2,
+              "label": "U3"
+            },
+            {
+              "type": 2,
+              "style": 2,
+              "label": "U4",
+              "id": 5,
+              "custom_id": "MJ::JOB::upsample::4::387fae90-1e87-40fe-a292-a13a67c690bd"
+            },
+            {
+              "emoji": {
+                "name": "\ud83d\udd04"
+              },
+              "custom_id": "MJ::JOB::reroll::0::387fae90-1e87-40fe-a292-a13a67c690bd::SOLO",
+              "type": 2,
+              "style": 2,
+              "id": 6
+            }
+          ],
+          "type": 1,
+          "id": 1
+        },
+        {
+          "type": 1,
+          "id": 7,
+          "components": [
+            {
+              "label": "V1",
+              "id": 8,
+              "custom_id": "MJ::JOB::variation::1::387fae90-1e87-40fe-a292-a13a67c690bd",
+              "type": 2,
+              "style": 2
+            },
+            {
+              "type": 2,
+              "style": 2,
+              "label": "V2",
+              "id": 9,
+              "custom_id": "MJ::JOB::variation::2::387fae90-1e87-40fe-a292-a13a67c690bd"
+            },
+            {
+              "custom_id": "MJ::JOB::variation::3::387fae90-1e87-40fe-a292-a13a67c690bd",
+              "type": 2,
+              "style": 2,
+              "label": "V3",
+              "id": 10
+            },
+            {
+              "custom_id": "MJ::JOB::variation::4::387fae90-1e87-40fe-a292-a13a67c690bd",
+              "type": 2,
+              "style": 2,
+              "label": "V4",
+              "id": 11
+            },
+            {
+              "url": "https://www.midjourney.com/jobs/387fae90-1e87-40fe-a292-a13a67c690bd",
+              "type": 2,
+              "style": 5,
+              "label": "\u200b",
+              "id": 12
+            }
+          ]
+        }
+      ],
+      "channel_id": "996991021718179852",
+      "timestamp": "2025-12-18T07:13:25.514000+00:00",
+      "mention_everyone": false,
+      "id": "1451110088894054563",
+      "edited_timestamp": null,
+      "buttons": [
+        "U1",
+        "U2",
+        "U3",
+        "U4",
+        "\ud83d\udd04",
+        "V1",
+        "V2",
+        "V3",
+        "V4"
+      ],
+      "flags": 0,
+      "embeds": [],
+      "channel_type": 1,
+      "author": {
+        "collectibles": null,
+        "clan": null,
+        "bot": true,
+        "public_flags": 589824,
+        "primary_guild": null,
+        "global_name": null,
+        "display_name_styles": null,
+        "avatar_decoration_data": null,
+        "avatar": "f6ce562a6b4979c4b1cbc5b436d3be76",
+        "username": "Midjourney Bot",
+        "id": "936929561302675456",
+        "discriminator": "9282"
+      },
+      "attachments": [
+        {
+          "id": "1451110088776351756",
+          "content_type": "image/png",
+          "content_scan_version": 3,
+          "width": 2912,
+          "size": 5590029,
+          "proxy_url": "https://media.discordapp.net/attachments/996991021718179852/1451110088776351756/fullstacklogan_A_mid-30s_man_with_medium-length_wavy_black_hair_387fae90-1e87-40fe-a292-a13a67c690bd.png?ex=6944fb15&is=6943a995&hm=bfe37fd8d35736c0ab248f898295473de7c52c43ada619226dbb1cc843c198a9&",
+          "placeholder_version": 1,
+          "height": 1632,
+          "filename": "fullstacklogan_A_mid-30s_man_with_medium-length_wavy_black_hair_387fae90-1e87-40fe-a292-a13a67c690bd.png",
+          "url": "https://cdn.discordapp.com/attachments/996991021718179852/1451110088776351756/fullstacklogan_A_mid-30s_man_with_medium-length_wavy_black_hair_387fae90-1e87-40fe-a292-a13a67c690bd.png?ex=6944fb15&is=6943a995&hm=bfe37fd8d35736c0ab248f898295473de7c52c43ada619226dbb1cc843c198a9&",
+          "placeholder": "UQgGDIKJpHeXg6d3gY9vnfZ1eQ=="
+        }
+      ],
+      "imageUx": [
+        {
+          "id": 1,
+          "url": "https://cdn.midjourney.com/387fae90-1e87-40fe-a292-a13a67c690bd/0_0.jpeg"
+        },
+        {
+          "id": 2,
+          "url": "https://cdn.midjourney.com/387fae90-1e87-40fe-a292-a13a67c690bd/0_1.jpeg"
+        },
+        {
+          "id": 3,
+          "url": "https://cdn.midjourney.com/387fae90-1e87-40fe-a292-a13a67c690bd/0_2.jpeg"
+        },
+        {
+          "id": 4,
+          "url": "https://cdn.midjourney.com/387fae90-1e87-40fe-a292-a13a67c690bd/0_3.jpeg"
+        }
+      ]
+    },
+    "code": 200,
+    "jobid": "j1218071256401305522i-u2163-c996991021718179852-bot:midjourney",
+    "jobType": "image"
+  },
+  {
+    "code": 422,
+    "created": "2025-12-18T07:12:49.339Z",
+    "errorDetails": "No start frame provided",
+    "jobType": "video",
+    "jobid": "j1218071249290019778v-u2163-c996991021718179852-bot:midjourney",
+    "request": {
+      "prompt": "Interior of a classic silver flying saucer, vast curved observation window revealing Earth below in brilliant blue and white, a seven-foot-tall Nordic alien with long flowing platinum blonde hair, luminous pale skin with subtle inner glow, large crystalline pale blue eyes, impossibly beautiful androgynous angular features, high cheekbones, wearing flowing silver-white robes, standing in silhouette, back to camera, soft ambient glow from control panels, contemplative atmosphere, wide shot emphasizing scale and isolation --s 50 --video",
+      "stream": false
+    },
+    "status": "moderated",
+    "error": "Invalid request",
+    "response": {
+      "position": 0,
+      "type": 20,
+      "webhook_id": "936929561302675456",
+      "application_id": "936929561302675456",
+      "tts": false,
+      "author": {
+        "collectibles": null,
+        "discriminator": "9282",
+        "display_name_styles": null,
+        "primary_guild": null,
+        "public_flags": 589824,
+        "avatar": "f6ce562a6b4979c4b1cbc5b436d3be76",
+        "global_name": null,
+        "id": "936929561302675456",
+        "username": "Midjourney Bot",
+        "avatar_decoration_data": null,
+        "bot": true,
+        "clan": null
+      },
+      "channel_id": "996991021718179852",
+      "interaction_metadata": {
+        "authorizing_integration_owners": {
+          "0": "0"
+        },
+        "command_type": 1,
+        "id": "1451109943544516759",
+        "name": "imagine",
+        "type": 2,
+        "user": {
+          "avatar": "961821c6f3798244b354e5920c94a3cc",
+          "avatar_decoration_data": null,
+          "clan": null,
+          "public_flags": 0,
+          "username": "fullstacklogan",
+          "collectibles": null,
+          "discriminator": "0",
+          "display_name_styles": null,
+          "global_name": "Logan",
+          "id": "475201463816290314",
+          "primary_guild": null
+        }
+      },
+      "pinned": false,
+      "timestamp": "2025-12-18T07:12:51.100000+00:00",
+      "attachments": [],
+      "channel_type": 1,
+      "components": [
+        {
+          "components": [
+            {
+              "type": 2,
+              "custom_id": "MJ::Job::Retry::EZynLGKH2G7c0q81X7EgZw",
+              "id": 2,
+              "label": "Resubmit",
+              "style": 2
+            }
+          ],
+          "id": 1,
+          "type": 1
+        }
+      ],
+      "content": "",
+      "edited_timestamp": null,
+      "embeds": [
+        {
+          "title": "Invalid request",
+          "type": "rich",
+          "color": 16711680,
+          "content_scan_version": 0,
+          "description": "No start frame provided",
+          "footer": {
+            "text": "/imagine Interior of a classic silver flying saucer, vast curved observation window revealing Earth below in brilliant blue and white, a seven-foot-tall Nordic alien with long flowing platinum blonde hair, luminous pale skin with subtle inner glow, large crystalline pale blue eyes, impossibly beautiful androgynous angular features, high cheekbones, wearing flowing silver-white robes, standing in silhouette, back to camera, soft ambient glow from control panels, contemplative atmosphere, wide shot emphasizing scale and isolation --s 50 --video"
+          },
+          "id": "1451109944551149689"
+        }
+      ],
+      "flags": 64,
+      "id": "1451109944551149688",
+      "interaction": {
+        "id": "1451109943544516759",
+        "name": "imagine",
+        "type": 2,
+        "user": {
+          "public_flags": 0,
+          "username": "fullstacklogan",
+          "avatar": "961821c6f3798244b354e5920c94a3cc",
+          "collectibles": null,
+          "display_name_styles": null,
+          "id": "475201463816290314",
+          "avatar_decoration_data": null,
+          "clan": null,
+          "discriminator": "0",
+          "global_name": "Logan",
+          "primary_guild": null
+        }
+      },
+      "mention_everyone": false,
+      "mention_roles": [],
+      "mentions": [],
+      "nonce": "1218071249290019778"
+    },
+    "updated": "2025-12-18T07:12:51.132Z",
+    "verb": "imagine"
+  },
+  {
+    "jobid": "j1218071138617837793i-u2163-c996991021718179852-bot:midjourney",
+    "jobType": "image",
+    "updated": "2025-12-18T07:12:09.270Z",
+    "response": {
+      "components": [
+        {
+          "type": 1,
+          "id": 1,
+          "components": [
+            {
+              "custom_id": "MJ::JOB::upsample::1::fa98550e-c3d9-41f8-8ae9-e8ecacde05e1",
+              "type": 2,
+              "style": 2,
+              "label": "U1",
+              "id": 2
+            },
+            {
+              "id": 3,
+              "custom_id": "MJ::JOB::upsample::2::fa98550e-c3d9-41f8-8ae9-e8ecacde05e1",
+              "type": 2,
+              "style": 2,
+              "label": "U2"
+            },
+            {
+              "label": "U3",
+              "id": 4,
+              "custom_id": "MJ::JOB::upsample::3::fa98550e-c3d9-41f8-8ae9-e8ecacde05e1",
+              "type": 2,
+              "style": 2
+            },
+            {
+              "id": 5,
+              "custom_id": "MJ::JOB::upsample::4::fa98550e-c3d9-41f8-8ae9-e8ecacde05e1",
+              "type": 2,
+              "style": 2,
+              "label": "U4"
+            },
+            {
+              "type": 2,
+              "style": 2,
+              "id": 6,
+              "emoji": {
+                "name": "\ud83d\udd04"
+              },
+              "custom_id": "MJ::JOB::reroll::0::fa98550e-c3d9-41f8-8ae9-e8ecacde05e1::SOLO"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "id": 7,
+          "components": [
+            {
+              "type": 2,
+              "style": 2,
+              "label": "V1",
+              "id": 8,
+              "custom_id": "MJ::JOB::variation::1::fa98550e-c3d9-41f8-8ae9-e8ecacde05e1"
+            },
+            {
+              "type": 2,
+              "style": 2,
+              "label": "V2",
+              "id": 9,
+              "custom_id": "MJ::JOB::variation::2::fa98550e-c3d9-41f8-8ae9-e8ecacde05e1"
+            },
+            {
+              "custom_id": "MJ::JOB::variation::3::fa98550e-c3d9-41f8-8ae9-e8ecacde05e1",
+              "type": 2,
+              "style": 2,
+              "label": "V3",
+              "id": 10
+            },
+            {
+              "custom_id": "MJ::JOB::variation::4::fa98550e-c3d9-41f8-8ae9-e8ecacde05e1",
+              "type": 2,
+              "style": 2,
+              "label": "V4",
+              "id": 11
+            },
+            {
+              "url": "https://www.midjourney.com/jobs/fa98550e-c3d9-41f8-8ae9-e8ecacde05e1",
+              "type": 2,
+              "style": 5,
+              "label": "\u200b",
+              "id": 12
+            }
+          ]
+        }
+      ],
+      "author": {
+        "bot": true,
+        "avatar": "f6ce562a6b4979c4b1cbc5b436d3be76",
+        "username": "Midjourney Bot",
+        "public_flags": 589824,
+        "primary_guild": null,
+        "global_name": null,
+        "collectibles": null,
+        "avatar_decoration_data": null,
+        "id": "936929561302675456",
+        "display_name_styles": null,
+        "discriminator": "9282",
+        "clan": null
+      },
+      "imageUx": [
+        {
+          "id": 1,
+          "url": "https://cdn.midjourney.com/fa98550e-c3d9-41f8-8ae9-e8ecacde05e1/0_0.jpeg"
+        },
+        {
+          "id": 2,
+          "url": "https://cdn.midjourney.com/fa98550e-c3d9-41f8-8ae9-e8ecacde05e1/0_1.jpeg"
+        },
+        {
+          "id": 3,
+          "url": "https://cdn.midjourney.com/fa98550e-c3d9-41f8-8ae9-e8ecacde05e1/0_2.jpeg"
+        },
+        {
+          "url": "https://cdn.midjourney.com/fa98550e-c3d9-41f8-8ae9-e8ecacde05e1/0_3.jpeg",
+          "id": 4
+        }
+      ],
+      "type": 0,
+      "pinned": false,
+      "id": "1451109767530549289",
+      "flags": 0,
+      "edited_timestamp": null,
+      "channel_id": "996991021718179852",
+      "timestamp": "2025-12-18T07:12:08.895000+00:00",
+      "mention_roles": [],
+      "embeds": [],
+      "channel_type": 1,
+      "attachments": [
+        {
+          "proxy_url": "https://media.discordapp.net/attachments/996991021718179852/1451109766763118635/fullstacklogan_Interior_of_a_classic_silver_flying_saucer_vast__fa98550e-c3d9-41f8-8ae9-e8ecacde05e1.png?ex=6944fac8&is=6943a948&hm=f2404825b64c8f3aabe918a7383b4573683afc952f9e89813a0f5236550220bf&",
+          "placeholder_version": 1,
+          "id": "1451109766763118635",
+          "height": 1632,
+          "filename": "fullstacklogan_Interior_of_a_classic_silver_flying_saucer_vast__fa98550e-c3d9-41f8-8ae9-e8ecacde05e1.png",
+          "placeholder": "1cYJDIIHSYapeHeZWHjQUTgPdA==",
+          "content_type": "image/png",
+          "content_scan_version": 3,
+          "width": 2912,
+          "url": "https://cdn.discordapp.com/attachments/996991021718179852/1451109766763118635/fullstacklogan_Interior_of_a_classic_silver_flying_saucer_vast__fa98550e-c3d9-41f8-8ae9-e8ecacde05e1.png?ex=6944fac8&is=6943a948&hm=f2404825b64c8f3aabe918a7383b4573683afc952f9e89813a0f5236550220bf&",
+          "size": 7090522
+        }
+      ],
+      "tts": false,
+      "mentions": [
+        {
+          "global_name": "Logan",
+          "display_name_styles": null,
+          "clan": {
+            "badge": null,
+            "tag": null,
+            "identity_guild_id": null,
+            "identity_enabled": false
+          },
+          "avatar_decoration_data": null,
+          "avatar": "961821c6f3798244b354e5920c94a3cc",
+          "username": "fullstacklogan",
+          "public_flags": 0,
+          "id": "475201463816290314",
+          "discriminator": "0",
+          "collectibles": null,
+          "primary_guild": {
+            "tag": null,
+            "identity_guild_id": null,
+            "identity_enabled": false,
+            "badge": null
+          }
+        }
+      ],
+      "content": "**Interior of a classic silver flying saucer, vast curved observation window revealing Earth below in brilliant blue and white, a seven-foot-tall Nordic alien with long flowing platinum blonde hair, luminous pale skin with subtle inner glow, large crystalline pale blue eyes, impossibly beautiful androgynous angular features, high cheekbones, wearing flowing silver-white robes, standing in silhouette, back to camera, soft ambient glow from control panels, contemplative atmosphere, wide shot emphasizing scale and isolation --s 50 --ar 16:9 --p lqg2fke --raw** - <@475201463816290314> (fast)",
+      "buttons": [
+        "U1",
+        "U2",
+        "U3",
+        "U4",
+        "\ud83d\udd04",
+        "V1",
+        "V2",
+        "V3",
+        "V4"
+      ],
+      "mention_everyone": false
+    },
+    "code": 200,
+    "verb": "imagine",
+    "status": "completed",
+    "created": "2025-12-18T07:11:38.656Z",
+    "request": {
+      "stream": false,
+      "prompt": "Interior of a classic silver flying saucer, vast curved observation window revealing Earth below in brilliant blue and white, a seven-foot-tall Nordic alien with long flowing platinum blonde hair, luminous pale skin with subtle inner glow, large crystalline pale blue eyes, impossibly beautiful androgynous angular features, high cheekbones, wearing flowing silver-white robes, standing in silhouette, back to camera, soft ambient glow from control panels, contemplative atmosphere, wide shot emphasizing scale and isolation --s 50"
+    }
+  },
+  {
+    "code": 422,
+    "created": "2025-12-18T07:11:31.578Z",
+    "errorDetails": "No start frame provided",
+    "response": {
+      "tts": false,
+      "channel_id": "996991021718179852",
+      "interaction_metadata": {
+        "authorizing_integration_owners": {
+          "0": "0"
+        },
+        "command_type": 1,
+        "id": "1451109618309922816",
+        "name": "imagine",
+        "type": 2,
+        "user": {
+          "avatar_decoration_data": null,
+          "discriminator": "0",
+          "global_name": "Logan",
+          "id": "475201463816290314",
+          "public_flags": 0,
+          "avatar": "961821c6f3798244b354e5920c94a3cc",
+          "clan": null,
+          "collectibles": null,
+          "display_name_styles": null,
+          "primary_guild": null,
+          "username": "fullstacklogan"
+        }
+      },
+      "attachments": [],
+      "author": {
+        "username": "Midjourney Bot",
+        "avatar_decoration_data": null,
+        "clan": null,
+        "collectibles": null,
+        "global_name": null,
+        "id": "936929561302675456",
+        "public_flags": 589824,
+        "avatar": "f6ce562a6b4979c4b1cbc5b436d3be76",
+        "bot": true,
+        "discriminator": "9282",
+        "display_name_styles": null,
+        "primary_guild": null
+      },
+      "mention_roles": [],
+      "type": 20,
+      "webhook_id": "936929561302675456",
+      "channel_type": 1,
+      "components": [
+        {
+          "components": [
+            {
+              "custom_id": "MJ::Job::Retry::VsWq_KbyXNUuR5KrqNpDhQ",
+              "id": 2,
+              "label": "Resubmit",
+              "style": 2,
+              "type": 2
+            }
+          ],
+          "id": 1,
+          "type": 1
+        }
+      ],
+      "content": "",
+      "edited_timestamp": null,
+      "flags": 64,
+      "id": "1451109619173953681",
+      "interaction": {
+        "user": {
+          "clan": null,
+          "collectibles": null,
+          "discriminator": "0",
+          "id": "475201463816290314",
+          "avatar": "961821c6f3798244b354e5920c94a3cc",
+          "avatar_decoration_data": null,
+          "display_name_styles": null,
+          "global_name": "Logan",
+          "primary_guild": null,
+          "public_flags": 0,
+          "username": "fullstacklogan"
+        },
+        "id": "1451109618309922816",
+        "name": "imagine",
+        "type": 2
+      },
+      "mention_everyone": false,
+      "application_id": "936929561302675456",
+      "embeds": [
+        {
+          "id": "1451109619173953682",
+          "title": "Invalid request",
+          "type": "rich",
+          "color": 16711680,
+          "content_scan_version": 0,
+          "description": "No start frame provided",
+          "footer": {
+            "text": "/imagine A mid-30s man with medium-length wavy black hair parted in the middle, sharp angular features, defined cheekbones, strong jawline, intense amber eyes, wearing a black leather jacket over a white t-shirt and blue jeans, waking in a sparse bedroom, early morning light filtering through thin curtains, dust particles suspended in golden rays, rumpled white sheets, shallow depth of field, intimate close-up from bed level, melancholic stillness, photorealistic cinematography --s 50 --video"
+          }
+        }
+      ],
+      "mentions": [],
+      "nonce": "1218071131536857964",
+      "pinned": false,
+      "position": 0,
+      "timestamp": "2025-12-18T07:11:33.524000+00:00"
+    },
+    "status": "moderated",
+    "updated": "2025-12-18T07:11:33.502Z",
+    "verb": "imagine",
+    "error": "Invalid request",
+    "jobType": "video",
+    "jobid": "j1218071131536857964v-u2163-c996991021718179852-bot:midjourney",
+    "request": {
+      "prompt": "A mid-30s man with medium-length wavy black hair parted in the middle, sharp angular features, defined cheekbones, strong jawline, intense amber eyes, wearing a black leather jacket over a white t-shirt and blue jeans, waking in a sparse bedroom, early morning light filtering through thin curtains, dust particles suspended in golden rays, rumpled white sheets, shallow depth of field, intimate close-up from bed level, melancholic stillness, photorealistic cinematography --s 50 --video",
+      "stream": false
+    }
+  },
+  {
+    "code": 200,
+    "jobid": "j1218071032878126278i-u2163-c996991021718179852-bot:midjourney",
+    "verb": "imagine",
+    "jobType": "image",
+    "created": "2025-12-18T07:10:32.917Z",
+    "updated": "2025-12-18T07:11:05.020Z",
+    "response": {
+      "type": 0,
+      "id": "1451109497484476531",
+      "mention_everyone": false,
+      "channel_id": "996991021718179852",
+      "embeds": [],
+      "mentions": [
+        {
+          "discriminator": "0",
+          "public_flags": 0,
+          "id": "475201463816290314",
+          "clan": {
+            "tag": null,
+            "identity_guild_id": null,
+            "identity_enabled": false,
+            "badge": null
+          },
+          "avatar_decoration_data": null,
+          "avatar": "961821c6f3798244b354e5920c94a3cc",
+          "username": "fullstacklogan",
+          "display_name_styles": null,
+          "primary_guild": {
+            "identity_guild_id": null,
+            "identity_enabled": false,
+            "badge": null,
+            "tag": null
+          },
+          "collectibles": null,
+          "global_name": "Logan"
+        }
+      ],
+      "imageUx": [
+        {
+          "id": 1,
+          "url": "https://cdn.midjourney.com/1399cc2c-8a82-4010-8f09-2a6e15539d57/0_0.jpeg"
+        },
+        {
+          "url": "https://cdn.midjourney.com/1399cc2c-8a82-4010-8f09-2a6e15539d57/0_1.jpeg",
+          "id": 2
+        },
+        {
+          "id": 3,
+          "url": "https://cdn.midjourney.com/1399cc2c-8a82-4010-8f09-2a6e15539d57/0_2.jpeg"
+        },
+        {
+          "id": 4,
+          "url": "https://cdn.midjourney.com/1399cc2c-8a82-4010-8f09-2a6e15539d57/0_3.jpeg"
+        }
+      ],
+      "tts": false,
+      "edited_timestamp": null,
+      "components": [
+        {
+          "type": 1,
+          "id": 1,
+          "components": [
+            {
+              "type": 2,
+              "style": 2,
+              "label": "U1",
+              "id": 2,
+              "custom_id": "MJ::JOB::upsample::1::1399cc2c-8a82-4010-8f09-2a6e15539d57"
+            },
+            {
+              "style": 2,
+              "label": "U2",
+              "id": 3,
+              "custom_id": "MJ::JOB::upsample::2::1399cc2c-8a82-4010-8f09-2a6e15539d57",
+              "type": 2
+            },
+            {
+              "type": 2,
+              "style": 2,
+              "label": "U3",
+              "id": 4,
+              "custom_id": "MJ::JOB::upsample::3::1399cc2c-8a82-4010-8f09-2a6e15539d57"
+            },
+            {
+              "type": 2,
+              "style": 2,
+              "label": "U4",
+              "id": 5,
+              "custom_id": "MJ::JOB::upsample::4::1399cc2c-8a82-4010-8f09-2a6e15539d57"
+            },
+            {
+              "type": 2,
+              "style": 2,
+              "id": 6,
+              "emoji": {
+                "name": "\ud83d\udd04"
+              },
+              "custom_id": "MJ::JOB::reroll::0::1399cc2c-8a82-4010-8f09-2a6e15539d57::SOLO"
+            }
+          ]
+        },
+        {
+          "components": [
+            {
+              "label": "V1",
+              "id": 8,
+              "custom_id": "MJ::JOB::variation::1::1399cc2c-8a82-4010-8f09-2a6e15539d57",
+              "type": 2,
+              "style": 2
+            },
+            {
+              "type": 2,
+              "style": 2,
+              "label": "V2",
+              "id": 9,
+              "custom_id": "MJ::JOB::variation::2::1399cc2c-8a82-4010-8f09-2a6e15539d57"
+            },
+            {
+              "custom_id": "MJ::JOB::variation::3::1399cc2c-8a82-4010-8f09-2a6e15539d57",
+              "type": 2,
+              "style": 2,
+              "label": "V3",
+              "id": 10
+            },
+            {
+              "style": 2,
+              "label": "V4",
+              "id": 11,
+              "custom_id": "MJ::JOB::variation::4::1399cc2c-8a82-4010-8f09-2a6e15539d57",
+              "type": 2
+            },
+            {
+              "type": 2,
+              "style": 5,
+              "label": "\u200b",
+              "id": 12,
+              "url": "https://www.midjourney.com/jobs/1399cc2c-8a82-4010-8f09-2a6e15539d57"
+            }
+          ],
+          "type": 1,
+          "id": 7
+        }
+      ],
+      "flags": 0,
+      "channel_type": 1,
+      "timestamp": "2025-12-18T07:11:04.511000+00:00",
+      "mention_roles": [],
+      "author": {
+        "public_flags": 589824,
+        "primary_guild": null,
+        "discriminator": "9282",
+        "collectibles": null,
+        "bot": true,
+        "avatar": "f6ce562a6b4979c4b1cbc5b436d3be76",
+        "clan": null,
+        "avatar_decoration_data": null,
+        "username": "Midjourney Bot",
+        "id": "936929561302675456",
+        "global_name": null,
+        "display_name_styles": null
+      },
+      "content": "**A mid-30s man with medium-length wavy black hair parted in the middle, sharp angular features, defined cheekbones, strong jawline, intense amber eyes, wearing a black leather jacket over a white t-shirt and blue jeans, waking in a sparse bedroom, early morning light filtering through thin curtains, dust particles suspended in golden rays, rumpled white sheets, shallow depth of field, intimate close-up from bed level, melancholic stillness, photorealistic cinematography --s 50 --ar 16:9 --p lqg2fke --raw** - <@475201463816290314> (fast)\n-# Create, explore, and organize on [midjourney.com](<https://midjourney.com/imagine?from_discord=1>)",
+      "attachments": [
+        {
+          "proxy_url": "https://media.discordapp.net/attachments/996991021718179852/1451109496939221092/fullstacklogan_A_mid-30s_man_with_medium-length_wavy_black_hair_1399cc2c-8a82-4010-8f09-2a6e15539d57.png?ex=6944fa88&is=6943a908&hm=8aae3e9fdd0ae5999519b0e83a5957750c63e05beefcc1487c8f27ae8dc6f209&",
+          "height": 1632,
+          "placeholder_version": 1,
+          "id": "1451109496939221092",
+          "width": 2912,
+          "filename": "fullstacklogan_A_mid-30s_man_with_medium-length_wavy_black_hair_1399cc2c-8a82-4010-8f09-2a6e15539d57.png",
+          "placeholder": "kRgGDIKU0GyeWnx5WoZeu8CFCg==",
+          "content_type": "image/png",
+          "content_scan_version": 3,
+          "url": "https://cdn.discordapp.com/attachments/996991021718179852/1451109496939221092/fullstacklogan_A_mid-30s_man_with_medium-length_wavy_black_hair_1399cc2c-8a82-4010-8f09-2a6e15539d57.png?ex=6944fa88&is=6943a908&hm=8aae3e9fdd0ae5999519b0e83a5957750c63e05beefcc1487c8f27ae8dc6f209&",
+          "size": 5278267
+        }
+      ],
+      "pinned": false,
+      "buttons": [
+        "U1",
+        "U2",
+        "U3",
+        "U4",
+        "\ud83d\udd04",
+        "V1",
+        "V2",
+        "V3",
+        "V4"
+      ]
+    },
+    "status": "completed",
+    "request": {
+      "stream": false,
+      "prompt": "A mid-30s man with medium-length wavy black hair parted in the middle, sharp angular features, defined cheekbones, strong jawline, intense amber eyes, wearing a black leather jacket over a white t-shirt and blue jeans, waking in a sparse bedroom, early morning light filtering through thin curtains, dust particles suspended in golden rays, rumpled white sheets, shallow depth of field, intimate close-up from bed level, melancholic stillness, photorealistic cinematography --s 50"
+    }
+  },
+  {
+    "code": 422,
+    "created": "2025-12-18T06:44:41.700Z",
+    "jobType": "video",
+    "response": {
+      "webhook_id": "936929561302675456",
+      "application_id": "936929561302675456",
+      "embeds": [
+        {
+          "footer": {
+            "text": "/imagine Interior of a classic silver flying saucer, vast curved observation window revealing Earth below in brilliant blue and white, a seven-foot-tall Nordic alien with long flowing platinum blonde hair, luminous pale skin with subtle inner glow, large crystalline pale blue eyes, impossibly beautiful androgynous angular features, high cheekbones, wearing flowing silver-white robes, standing in silhouette, back to camera, soft ambient glow from control panels, contemplative atmosphere, wide shot emphasizing scale and isolation --ar 16:9 --v 7 --s 50 --video"
+          },
+          "id": "1451102866919133286",
+          "title": "Invalid request",
+          "type": "rich",
+          "color": 16711680,
+          "content_scan_version": 0,
+          "description": "No start frame provided"
+        }
+      ],
+      "id": "1451102866449109023",
+      "interaction": {
+        "id": "1451102865753116875",
+        "name": "imagine",
+        "type": 2,
+        "user": {
+          "avatar_decoration_data": null,
+          "collectibles": null,
+          "discriminator": "0",
+          "global_name": "Logan",
+          "id": "475201463816290314",
+          "public_flags": 0,
+          "username": "fullstacklogan",
+          "avatar": "961821c6f3798244b354e5920c94a3cc",
+          "clan": null,
+          "display_name_styles": null,
+          "primary_guild": null
+        }
+      },
+      "mention_everyone": false,
+      "channel_id": "996991021718179852",
+      "mention_roles": [],
+      "mentions": [],
+      "tts": false,
+      "channel_type": 1,
+      "components": [
+        {
+          "components": [
+            {
+              "custom_id": "MJ::Job::Retry::Rxf6wSVqXxhhmXmbP1fK2w",
+              "id": 2,
+              "label": "Resubmit",
+              "style": 2,
+              "type": 2
+            }
+          ],
+          "id": 1,
+          "type": 1
+        }
+      ],
+      "content": "",
+      "interaction_metadata": {
+        "authorizing_integration_owners": {
+          "0": "0"
+        },
+        "command_type": 1,
+        "id": "1451102865753116875",
+        "name": "imagine",
+        "type": 2,
+        "user": {
+          "avatar_decoration_data": null,
+          "collectibles": null,
+          "display_name_styles": null,
+          "global_name": "Logan",
+          "primary_guild": null,
+          "username": "fullstacklogan",
+          "avatar": "961821c6f3798244b354e5920c94a3cc",
+          "clan": null,
+          "discriminator": "0",
+          "id": "475201463816290314",
+          "public_flags": 0
+        }
+      },
+      "pinned": false,
+      "position": 0,
+      "timestamp": "2025-12-18T06:44:43.549000+00:00",
+      "attachments": [],
+      "author": {
+        "public_flags": 589824,
+        "avatar": "f6ce562a6b4979c4b1cbc5b436d3be76",
+        "bot": true,
+        "discriminator": "9282",
+        "display_name_styles": null,
+        "id": "936929561302675456",
+        "primary_guild": null,
+        "username": "Midjourney Bot",
+        "avatar_decoration_data": null,
+        "clan": null,
+        "collectibles": null,
+        "global_name": null
+      },
+      "edited_timestamp": null,
+      "flags": 64,
+      "nonce": "1218064441658953022",
+      "type": 20
+    },
+    "status": "moderated",
+    "updated": "2025-12-18T06:44:43.682Z",
+    "verb": "imagine",
+    "error": "Invalid request",
+    "errorDetails": "No start frame provided",
+    "jobid": "j1218064441658953022v-u2163-c996991021718179852-bot:midjourney",
+    "request": {
+      "prompt": "Interior of a classic silver flying saucer, vast curved observation window revealing Earth below in brilliant blue and white, a seven-foot-tall Nordic alien with long flowing platinum blonde hair, luminous pale skin with subtle inner glow, large crystalline pale blue eyes, impossibly beautiful androgynous angular features, high cheekbones, wearing flowing silver-white robes, standing in silhouette, back to camera, soft ambient glow from control panels, contemplative atmosphere, wide shot emphasizing scale and isolation --ar 16:9 --v 7 --s 50 --video",
+      "stream": false
+    }
+  },
+  {
+    "code": 200,
+    "jobid": "j1218064333556384440i-u2163-c996991021718179852-bot:midjourney",
+    "status": "completed",
+    "request": {
+      "stream": false,
+      "prompt": "Interior of a classic silver flying saucer, vast curved observation window revealing Earth below in brilliant blue and white, a seven-foot-tall Nordic alien with long flowing platinum blonde hair, luminous pale skin with subtle inner glow, large crystalline pale blue eyes, impossibly beautiful androgynous angular features, high cheekbones, wearing flowing silver-white robes, standing in silhouette, back to camera, soft ambient glow from control panels, contemplative atmosphere, wide shot emphasizing scale and isolation --ar 16:9 --v 7 --s 50"
+    },
+    "response": {
+      "pinned": false,
+      "mention_roles": [],
+      "mention_everyone": false,
+      "author": {
+        "discriminator": "9282",
+        "bot": true,
+        "avatar_decoration_data": null,
+        "primary_guild": null,
+        "id": "936929561302675456",
+        "collectibles": null,
+        "avatar": "f6ce562a6b4979c4b1cbc5b436d3be76",
+        "public_flags": 589824,
+        "display_name_styles": null,
+        "clan": null,
+        "username": "Midjourney Bot",
+        "global_name": null
+      },
+      "channel_id": "996991021718179852",
+      "buttons": [
+        "U1",
+        "U2",
+        "U3",
+        "U4",
+        "\ud83d\udd04",
+        "V1",
+        "V2",
+        "V3",
+        "V4"
+      ],
+      "components": [
+        {
+          "type": 1,
+          "id": 1,
+          "components": [
+            {
+              "type": 2,
+              "style": 2,
+              "label": "U1",
+              "id": 2,
+              "custom_id": "MJ::JOB::upsample::1::68a400d7-685e-4b21-ac2d-e759f565a121"
+            },
+            {
+              "style": 2,
+              "label": "U2",
+              "id": 3,
+              "custom_id": "MJ::JOB::upsample::2::68a400d7-685e-4b21-ac2d-e759f565a121",
+              "type": 2
+            },
+            {
+              "type": 2,
+              "style": 2,
+              "label": "U3",
+              "id": 4,
+              "custom_id": "MJ::JOB::upsample::3::68a400d7-685e-4b21-ac2d-e759f565a121"
+            },
+            {
+              "style": 2,
+              "label": "U4",
+              "id": 5,
+              "custom_id": "MJ::JOB::upsample::4::68a400d7-685e-4b21-ac2d-e759f565a121",
+              "type": 2
+            },
+            {
+              "emoji": {
+                "name": "\ud83d\udd04"
+              },
+              "custom_id": "MJ::JOB::reroll::0::68a400d7-685e-4b21-ac2d-e759f565a121::SOLO",
+              "type": 2,
+              "style": 2,
+              "id": 6
+            }
+          ]
+        },
+        {
+          "components": [
+            {
+              "type": 2,
+              "style": 2,
+              "label": "V1",
+              "id": 8,
+              "custom_id": "MJ::JOB::variation::1::68a400d7-685e-4b21-ac2d-e759f565a121"
+            },
+            {
+              "label": "V2",
+              "id": 9,
+              "custom_id": "MJ::JOB::variation::2::68a400d7-685e-4b21-ac2d-e759f565a121",
+              "type": 2,
+              "style": 2
+            },
+            {
+              "id": 10,
+              "custom_id": "MJ::JOB::variation::3::68a400d7-685e-4b21-ac2d-e759f565a121",
+              "type": 2,
+              "style": 2,
+              "label": "V3"
+            },
+            {
+              "custom_id": "MJ::JOB::variation::4::68a400d7-685e-4b21-ac2d-e759f565a121",
+              "type": 2,
+              "style": 2,
+              "label": "V4",
+              "id": 11
+            },
+            {
+              "label": "\u200b",
+              "id": 12,
+              "url": "https://www.midjourney.com/jobs/68a400d7-685e-4b21-ac2d-e759f565a121",
+              "type": 2,
+              "style": 5
+            }
+          ],
+          "type": 1,
+          "id": 7
+        }
+      ],
+      "tts": false,
+      "imageUx": [
+        {
+          "id": 1,
+          "url": "https://cdn.midjourney.com/68a400d7-685e-4b21-ac2d-e759f565a121/0_0.jpeg"
+        },
+        {
+          "id": 2,
+          "url": "https://cdn.midjourney.com/68a400d7-685e-4b21-ac2d-e759f565a121/0_1.jpeg"
+        },
+        {
+          "id": 3,
+          "url": "https://cdn.midjourney.com/68a400d7-685e-4b21-ac2d-e759f565a121/0_2.jpeg"
+        },
+        {
+          "id": 4,
+          "url": "https://cdn.midjourney.com/68a400d7-685e-4b21-ac2d-e759f565a121/0_3.jpeg"
+        }
+      ],
+      "timestamp": "2025-12-18T06:44:04.077000+00:00",
+      "id": "1451102700891668581",
+      "content": "**Interior of a classic silver flying saucer, vast curved observation window revealing Earth below in brilliant blue and white, a seven-foot-tall Nordic alien with long flowing platinum blonde hair, luminous pale skin with subtle inner glow, large crystalline pale blue eyes, impossibly beautiful androgynous angular features, high cheekbones, wearing flowing silver-white robes, standing in silhouette, back to camera, soft ambient glow from control panels, contemplative atmosphere, wide shot emphasizing scale and isolation --ar 16:9 --v 7.0 --s 50 --p lqg2fke --raw** - <@475201463816290314> (fast)",
+      "type": 0,
+      "mentions": [
+        {
+          "display_name_styles": null,
+          "discriminator": "0",
+          "username": "fullstacklogan",
+          "avatar_decoration_data": null,
+          "collectibles": null,
+          "clan": {
+            "identity_guild_id": null,
+            "identity_enabled": false,
+            "badge": null,
+            "tag": null
+          },
+          "id": "475201463816290314",
+          "avatar": "961821c6f3798244b354e5920c94a3cc",
+          "public_flags": 0,
+          "primary_guild": {
+            "badge": null,
+            "tag": null,
+            "identity_guild_id": null,
+            "identity_enabled": false
+          },
+          "global_name": "Logan"
+        }
+      ],
+      "attachments": [
+        {
+          "filename": "fullstacklogan_Interior_of_a_classic_silver_flying_saucer_vast__68a400d7-685e-4b21-ac2d-e759f565a121.png",
+          "width": 2912,
+          "placeholder_version": 1,
+          "content_type": "image/png",
+          "content_scan_version": 3,
+          "id": "1451102700224905360",
+          "proxy_url": "https://media.discordapp.net/attachments/996991021718179852/1451102700224905360/fullstacklogan_Interior_of_a_classic_silver_flying_saucer_vast__68a400d7-685e-4b21-ac2d-e759f565a121.png?ex=6944f433&is=6943a2b3&hm=9e411a60ceadea974a0fe24224694511a2b3b7fe048ef812238324ee969b6973&",
+          "height": 1632,
+          "url": "https://cdn.discordapp.com/attachments/996991021718179852/1451102700224905360/fullstacklogan_Interior_of_a_classic_silver_flying_saucer_vast__68a400d7-685e-4b21-ac2d-e759f565a121.png?ex=6944f433&is=6943a2b3&hm=9e411a60ceadea974a0fe24224694511a2b3b7fe048ef812238324ee969b6973&",
+          "size": 7177161,
+          "placeholder": "08YJBIKZB4iHcaVoiIbnn+H3Jg=="
+        }
+      ],
+      "channel_type": 1,
+      "edited_timestamp": null,
+      "flags": 0,
+      "embeds": []
+    },
+    "jobType": "image",
+    "verb": "imagine",
+    "created": "2025-12-18T06:43:33.592Z",
+    "updated": "2025-12-18T06:44:04.462Z"
+  },
+  {
+    "code": 422,
+    "error": "Invalid request",
+    "errorDetails": "No start frame provided",
+    "jobType": "video",
+    "request": {
+      "prompt": "A mid-30s man with medium-length wavy black hair parted in the middle, sharp angular features, defined cheekbones, strong jawline, intense amber eyes, wearing a black leather jacket over a white t-shirt and blue jeans, waking in a sparse bedroom, early morning light filtering through thin curtains, dust particles suspended in golden rays, rumpled white sheets, shallow depth of field, intimate close-up from bed level, melancholic stillness, photorealistic cinematography --ar 16:9 --v 7 --s 50 --video",
+      "stream": false
+    },
+    "status": "moderated",
+    "created": "2025-12-18T06:43:25.995Z",
+    "jobid": "j1218064325953106393v-u2163-c996991021718179852-bot:midjourney",
+    "response": {
+      "flags": 64,
+      "nonce": "1218064325953106393",
+      "position": 0,
+      "attachments": [],
+      "embeds": [
+        {
+          "footer": {
+            "text": "/imagine A mid-30s man with medium-length wavy black hair parted in the middle, sharp angular features, defined cheekbones, strong jawline, intense amber eyes, wearing a black leather jacket over a white t-shirt and blue jeans, waking in a sparse bedroom, early morning light filtering through thin curtains, dust particles suspended in golden rays, rumpled white sheets, shallow depth of field, intimate close-up from bed level, melancholic stillness, photorealistic cinematography --ar 16:9 --v 7 --s 50 --video"
+          },
+          "id": "1451102548445499506",
+          "title": "Invalid request",
+          "type": "rich",
+          "color": 16711680,
+          "content_scan_version": 0,
+          "description": "No start frame provided"
+        }
+      ],
+      "id": "1451102548445499505",
+      "interaction_metadata": {
+        "command_type": 1,
+        "id": "1451102547694583970",
+        "name": "imagine",
+        "type": 2,
+        "user": {
+          "global_name": "Logan",
+          "primary_guild": null,
+          "public_flags": 0,
+          "username": "fullstacklogan",
+          "avatar": "961821c6f3798244b354e5920c94a3cc",
+          "discriminator": "0",
+          "id": "475201463816290314",
+          "avatar_decoration_data": null,
+          "clan": null,
+          "collectibles": null,
+          "display_name_styles": null
+        },
+        "authorizing_integration_owners": {
+          "0": "0"
+        }
+      },
+      "mention_everyone": false,
+      "pinned": false,
+      "tts": false,
+      "type": 20,
+      "application_id": "936929561302675456",
+      "channel_id": "996991021718179852",
+      "interaction": {
+        "id": "1451102547694583970",
+        "name": "imagine",
+        "type": 2,
+        "user": {
+          "collectibles": null,
+          "display_name_styles": null,
+          "global_name": "Logan",
+          "id": "475201463816290314",
+          "public_flags": 0,
+          "discriminator": "0",
+          "primary_guild": null,
+          "username": "fullstacklogan",
+          "avatar": "961821c6f3798244b354e5920c94a3cc",
+          "avatar_decoration_data": null,
+          "clan": null
+        }
+      },
+      "mention_roles": [],
+      "timestamp": "2025-12-18T06:43:27.731000+00:00",
+      "webhook_id": "936929561302675456",
+      "content": "",
+      "mentions": [],
+      "author": {
+        "avatar": "f6ce562a6b4979c4b1cbc5b436d3be76",
+        "bot": true,
+        "clan": null,
+        "discriminator": "9282",
+        "display_name_styles": null,
+        "primary_guild": null,
+        "public_flags": 589824,
+        "avatar_decoration_data": null,
+        "collectibles": null,
+        "global_name": null,
+        "id": "936929561302675456",
+        "username": "Midjourney Bot"
+      },
+      "channel_type": 1,
+      "components": [
+        {
+          "components": [
+            {
+              "custom_id": "MJ::Job::Retry::YUP6XLV_BbxwzGvOsH8kpA",
+              "id": 2,
+              "label": "Resubmit",
+              "style": 2,
+              "type": 2
+            }
+          ],
+          "id": 1,
+          "type": 1
+        }
+      ],
+      "edited_timestamp": null
+    },
+    "updated": "2025-12-18T06:43:27.815Z",
+    "verb": "imagine"
+  },
+  {
+    "created": "2025-12-18T06:42:12.664Z",
+    "updated": "2025-12-18T06:42:44.773Z",
+    "response": {
+      "edited_timestamp": null,
+      "timestamp": "2025-12-18T06:42:44.294000+00:00",
+      "mentions": [
+        {
+          "primary_guild": {
+            "tag": null,
+            "identity_guild_id": null,
+            "identity_enabled": false,
+            "badge": null
+          },
+          "collectibles": null,
+          "avatar_decoration_data": null,
+          "public_flags": 0,
+          "discriminator": "0",
+          "username": "fullstacklogan",
+          "id": "475201463816290314",
+          "display_name_styles": null,
+          "clan": {
+            "tag": null,
+            "identity_guild_id": null,
+            "identity_enabled": false,
+            "badge": null
+          },
+          "avatar": "961821c6f3798244b354e5920c94a3cc",
+          "global_name": "Logan"
+        }
+      ],
+      "id": "1451102366257516668",
+      "mention_roles": [],
+      "content": "**A mid-30s man with medium-length wavy black hair parted in the middle, sharp angular features, defined cheekbones, strong jawline, intense amber eyes, wearing a black leather jacket over a white t-shirt and blue jeans, waking in a sparse bedroom, early morning light filtering through thin curtains, dust particles suspended in golden rays, rumpled white sheets, shallow depth of field, intimate close-up from bed level, melancholic stillness, photorealistic cinematography --ar 16:9 --v 7.0 --s 50 --p lqg2fke --raw** - <@475201463816290314> (fast)",
+      "pinned": false,
+      "type": 0,
+      "embeds": [],
+      "components": [
+        {
+          "id": 1,
+          "components": [
+            {
+              "id": 2,
+              "custom_id": "MJ::JOB::upsample::1::73928e89-4262-4ea6-8cd9-025b5cfc6242",
+              "type": 2,
+              "style": 2,
+              "label": "U1"
+            },
+            {
+              "type": 2,
+              "style": 2,
+              "label": "U2",
+              "id": 3,
+              "custom_id": "MJ::JOB::upsample::2::73928e89-4262-4ea6-8cd9-025b5cfc6242"
+            },
+            {
+              "custom_id": "MJ::JOB::upsample::3::73928e89-4262-4ea6-8cd9-025b5cfc6242",
+              "type": 2,
+              "style": 2,
+              "label": "U3",
+              "id": 4
+            },
+            {
+              "custom_id": "MJ::JOB::upsample::4::73928e89-4262-4ea6-8cd9-025b5cfc6242",
+              "type": 2,
+              "style": 2,
+              "label": "U4",
+              "id": 5
+            },
+            {
+              "custom_id": "MJ::JOB::reroll::0::73928e89-4262-4ea6-8cd9-025b5cfc6242::SOLO",
+              "type": 2,
+              "style": 2,
+              "id": 6,
+              "emoji": {
+                "name": "\ud83d\udd04"
+              }
+            }
+          ],
+          "type": 1
+        },
+        {
+          "id": 7,
+          "components": [
+            {
+              "label": "V1",
+              "id": 8,
+              "custom_id": "MJ::JOB::variation::1::73928e89-4262-4ea6-8cd9-025b5cfc6242",
+              "type": 2,
+              "style": 2
+            },
+            {
+              "type": 2,
+              "style": 2,
+              "label": "V2",
+              "id": 9,
+              "custom_id": "MJ::JOB::variation::2::73928e89-4262-4ea6-8cd9-025b5cfc6242"
+            },
+            {
+              "label": "V3",
+              "id": 10,
+              "custom_id": "MJ::JOB::variation::3::73928e89-4262-4ea6-8cd9-025b5cfc6242",
+              "type": 2,
+              "style": 2
+            },
+            {
+              "type": 2,
+              "style": 2,
+              "label": "V4",
+              "id": 11,
+              "custom_id": "MJ::JOB::variation::4::73928e89-4262-4ea6-8cd9-025b5cfc6242"
+            },
+            {
+              "label": "\u200b",
+              "id": 12,
+              "url": "https://www.midjourney.com/jobs/73928e89-4262-4ea6-8cd9-025b5cfc6242",
+              "type": 2,
+              "style": 5
+            }
+          ],
+          "type": 1
+        }
+      ],
+      "attachments": [
+        {
+          "content_type": "image/png",
+          "content_scan_version": 3,
+          "id": "1451102365842276443",
+          "placeholder_version": 1,
+          "placeholder": "0BgKDIIIt4h2iIiHSIkMevnllA==",
+          "width": 2912,
+          "size": 6264236,
+          "proxy_url": "https://media.discordapp.net/attachments/996991021718179852/1451102365842276443/fullstacklogan_A_mid-30s_man_with_medium-length_wavy_black_hair_73928e89-4262-4ea6-8cd9-025b5cfc6242.png?ex=6944f3e4&is=6943a264&hm=6d320d5a3534c2187f7fedf589ec87580268f87b94650ac4e2ee5163ac3a7cbf&",
+          "height": 1632,
+          "url": "https://cdn.discordapp.com/attachments/996991021718179852/1451102365842276443/fullstacklogan_A_mid-30s_man_with_medium-length_wavy_black_hair_73928e89-4262-4ea6-8cd9-025b5cfc6242.png?ex=6944f3e4&is=6943a264&hm=6d320d5a3534c2187f7fedf589ec87580268f87b94650ac4e2ee5163ac3a7cbf&",
+          "filename": "fullstacklogan_A_mid-30s_man_with_medium-length_wavy_black_hair_73928e89-4262-4ea6-8cd9-025b5cfc6242.png"
+        }
+      ],
+      "imageUx": [
+        {
+          "id": 1,
+          "url": "https://cdn.midjourney.com/73928e89-4262-4ea6-8cd9-025b5cfc6242/0_0.jpeg"
+        },
+        {
+          "id": 2,
+          "url": "https://cdn.midjourney.com/73928e89-4262-4ea6-8cd9-025b5cfc6242/0_1.jpeg"
+        },
+        {
+          "url": "https://cdn.midjourney.com/73928e89-4262-4ea6-8cd9-025b5cfc6242/0_2.jpeg",
+          "id": 3
+        },
+        {
+          "id": 4,
+          "url": "https://cdn.midjourney.com/73928e89-4262-4ea6-8cd9-025b5cfc6242/0_3.jpeg"
+        }
+      ],
+      "buttons": [
+        "U1",
+        "U2",
+        "U3",
+        "U4",
+        "\ud83d\udd04",
+        "V1",
+        "V2",
+        "V3",
+        "V4"
+      ],
+      "tts": false,
+      "author": {
+        "avatar": "f6ce562a6b4979c4b1cbc5b436d3be76",
+        "id": "936929561302675456",
+        "clan": null,
+        "avatar_decoration_data": null,
+        "public_flags": 589824,
+        "display_name_styles": null,
+        "discriminator": "9282",
+        "primary_guild": null,
+        "bot": true,
+        "username": "Midjourney Bot",
+        "global_name": null,
+        "collectibles": null
+      },
+      "mention_everyone": false,
+      "flags": 0,
+      "channel_type": 1,
+      "channel_id": "996991021718179852"
+    },
+    "status": "completed",
+    "request": {
+      "stream": false,
+      "prompt": "A mid-30s man with medium-length wavy black hair parted in the middle, sharp angular features, defined cheekbones, strong jawline, intense amber eyes, wearing a black leather jacket over a white t-shirt and blue jeans, waking in a sparse bedroom, early morning light filtering through thin curtains, dust particles suspended in golden rays, rumpled white sheets, shallow depth of field, intimate close-up from bed level, melancholic stillness, photorealistic cinematography --ar 16:9 --v 7 --s 50"
+    },
+    "code": 200,
+    "jobid": "j1218064212625923543i-u2163-c996991021718179852-bot:midjourney",
+    "verb": "imagine",
+    "jobType": "image"
+  },
+  {
+    "updated": "2025-12-18T06:32:08.934Z",
+    "response": {
+      "channel_type": 1,
+      "buttons": [
+        "U1",
+        "U2",
+        "U3",
+        "U4",
+        "\ud83d\udd04",
+        "V1",
+        "V2",
+        "V3",
+        "V4"
+      ],
+      "edited_timestamp": null,
+      "id": "1451099699753783358",
+      "timestamp": "2025-12-18T06:32:08.550000+00:00",
+      "channel_id": "996991021718179852",
+      "flags": 0,
+      "content": "**Elegant pale hand with long fingers pressed flat against curved glass belonging to a seven-foot-tall Nordic alien with luminous pale skin with subtle inner glow, Earth visible beyond in soft focus, condensation forming around the palm, extreme close-up, cool blue ambient light from within the saucer, profound longing captured in gesture alone --ar 16:9 --v 7.0 --c 9 --p lqg2fke --raw** - <@475201463816290314> (fast)",
+      "attachments": [
+        {
+          "content_type": "image/png",
+          "placeholder": "j7YFFIS6CneKhYZ1hXwwRglzpg==",
+          "filename": "fullstacklogan_Elegant_pale_hand_with_long_fingers_pressed_flat_b30aeb8c-5ad3-4fad-9f4a-ef620f71e599.png",
+          "size": 6293675,
+          "proxy_url": "https://media.discordapp.net/attachments/996991021718179852/1451099699359645799/fullstacklogan_Elegant_pale_hand_with_long_fingers_pressed_flat_b30aeb8c-5ad3-4fad-9f4a-ef620f71e599.png?ex=6944f168&is=69439fe8&hm=5bd6323d2a44f150bbb55fd33545e8bb83fb59584853bb206602faf214f805ed&",
+          "id": "1451099699359645799",
+          "content_scan_version": 3,
+          "width": 2912,
+          "url": "https://cdn.discordapp.com/attachments/996991021718179852/1451099699359645799/fullstacklogan_Elegant_pale_hand_with_long_fingers_pressed_flat_b30aeb8c-5ad3-4fad-9f4a-ef620f71e599.png?ex=6944f168&is=69439fe8&hm=5bd6323d2a44f150bbb55fd33545e8bb83fb59584853bb206602faf214f805ed&",
+          "placeholder_version": 1,
+          "height": 1632
+        }
+      ],
+      "tts": false,
+      "mention_roles": [],
+      "imageUx": [
+        {
+          "id": 1,
+          "url": "https://cdn.midjourney.com/b30aeb8c-5ad3-4fad-9f4a-ef620f71e599/0_0.jpeg"
+        },
+        {
+          "url": "https://cdn.midjourney.com/b30aeb8c-5ad3-4fad-9f4a-ef620f71e599/0_1.jpeg",
+          "id": 2
+        },
+        {
+          "url": "https://cdn.midjourney.com/b30aeb8c-5ad3-4fad-9f4a-ef620f71e599/0_2.jpeg",
+          "id": 3
+        },
+        {
+          "id": 4,
+          "url": "https://cdn.midjourney.com/b30aeb8c-5ad3-4fad-9f4a-ef620f71e599/0_3.jpeg"
+        }
+      ],
+      "pinned": false,
+      "author": {
+        "avatar": "f6ce562a6b4979c4b1cbc5b436d3be76",
+        "display_name_styles": null,
+        "collectibles": null,
+        "discriminator": "9282",
+        "clan": null,
+        "username": "Midjourney Bot",
+        "public_flags": 589824,
+        "primary_guild": null,
+        "id": "936929561302675456",
+        "bot": true,
+        "avatar_decoration_data": null,
+        "global_name": null
+      },
+      "mention_everyone": false,
+      "embeds": [],
+      "type": 0,
+      "components": [
+        {
+          "type": 1,
+          "id": 1,
+          "components": [
+            {
+              "type": 2,
+              "style": 2,
+              "label": "U1",
+              "id": 2,
+              "custom_id": "MJ::JOB::upsample::1::b30aeb8c-5ad3-4fad-9f4a-ef620f71e599"
+            },
+            {
+              "id": 3,
+              "custom_id": "MJ::JOB::upsample::2::b30aeb8c-5ad3-4fad-9f4a-ef620f71e599",
+              "type": 2,
+              "style": 2,
+              "label": "U2"
+            },
+            {
+              "label": "U3",
+              "id": 4,
+              "custom_id": "MJ::JOB::upsample::3::b30aeb8c-5ad3-4fad-9f4a-ef620f71e599",
+              "type": 2,
+              "style": 2
+            },
+            {
+              "id": 5,
+              "custom_id": "MJ::JOB::upsample::4::b30aeb8c-5ad3-4fad-9f4a-ef620f71e599",
+              "type": 2,
+              "style": 2,
+              "label": "U4"
+            },
+            {
+              "custom_id": "MJ::JOB::reroll::0::b30aeb8c-5ad3-4fad-9f4a-ef620f71e599::SOLO",
+              "type": 2,
+              "style": 2,
+              "id": 6,
+              "emoji": {
+                "name": "\ud83d\udd04"
+              }
+            }
+          ]
+        },
+        {
+          "components": [
+            {
+              "id": 8,
+              "custom_id": "MJ::JOB::variation::1::b30aeb8c-5ad3-4fad-9f4a-ef620f71e599",
+              "type": 2,
+              "style": 2,
+              "label": "V1"
+            },
+            {
+              "label": "V2",
+              "id": 9,
+              "custom_id": "MJ::JOB::variation::2::b30aeb8c-5ad3-4fad-9f4a-ef620f71e599",
+              "type": 2,
+              "style": 2
+            },
+            {
+              "id": 10,
+              "custom_id": "MJ::JOB::variation::3::b30aeb8c-5ad3-4fad-9f4a-ef620f71e599",
+              "type": 2,
+              "style": 2,
+              "label": "V3"
+            },
+            {
+              "label": "V4",
+              "id": 11,
+              "custom_id": "MJ::JOB::variation::4::b30aeb8c-5ad3-4fad-9f4a-ef620f71e599",
+              "type": 2,
+              "style": 2
+            },
+            {
+              "url": "https://www.midjourney.com/jobs/b30aeb8c-5ad3-4fad-9f4a-ef620f71e599",
+              "type": 2,
+              "style": 5,
+              "label": "\u200b",
+              "id": 12
+            }
+          ],
+          "type": 1,
+          "id": 7
+        }
+      ],
+      "mentions": [
+        {
+          "discriminator": "0",
+          "avatar_decoration_data": null,
+          "collectibles": null,
+          "clan": {
+            "badge": null,
+            "tag": null,
+            "identity_guild_id": null,
+            "identity_enabled": false
+          },
+          "display_name_styles": null,
+          "avatar": "961821c6f3798244b354e5920c94a3cc",
+          "username": "fullstacklogan",
+          "public_flags": 0,
+          "primary_guild": {
+            "identity_guild_id": null,
+            "identity_enabled": false,
+            "badge": null,
+            "tag": null
+          },
+          "id": "475201463816290314",
+          "global_name": "Logan"
+        }
+      ]
+    },
+    "verb": "imagine",
+    "code": 200,
+    "jobType": "image",
+    "created": "2025-12-18T06:31:38.352Z",
+    "request": {
+      "stream": false,
+      "prompt": "Elegant pale hand with long fingers pressed flat against curved glass belonging to a seven-foot-tall Nordic alien with luminous pale skin with subtle inner glow, Earth visible beyond in soft focus, condensation forming around the palm, extreme close-up, cool blue ambient light from within the saucer, profound longing captured in gesture alone --ar 16:9 --v 7 --s 100 --c 9"
+    },
+    "jobid": "j1218063138306250380i-u2163-c996991021718179852-bot:midjourney",
+    "status": "completed"
+  },
+  {
+    "status": "completed",
+    "created": "2025-12-18T06:30:37.547Z",
+    "updated": "2025-12-18T06:31:07.433Z",
+    "response": {
+      "content": "**A mid-30s man with medium-length wavy black hair parted in the middle, sharp angular features, defined cheekbones, strong jawline, intense amber eyes, wearing a black leather jacket over a white t-shirt and blue jeans, sitting alone at a kitchen table, morning coffee steam rising, harsh fluorescent light mixing with pale dawn through a window, empty chair across the table, 35mm lens perspective, mundane domestic isolation, photorealistic detail in textures and light --ar 16:9 --v 7.0 --c 9 --p lqg2fke --raw** - <@475201463816290314> (fast)",
+      "channel_id": "996991021718179852",
+      "type": 0,
+      "tts": false,
+      "mention_roles": [],
+      "embeds": [],
+      "edited_timestamp": null,
+      "components": [
+        {
+          "type": 1,
+          "id": 1,
+          "components": [
+            {
+              "custom_id": "MJ::JOB::upsample::1::fb52c68f-1b74-43bd-81de-711eaa106124",
+              "type": 2,
+              "style": 2,
+              "label": "U1",
+              "id": 2
+            },
+            {
+              "type": 2,
+              "style": 2,
+              "label": "U2",
+              "id": 3,
+              "custom_id": "MJ::JOB::upsample::2::fb52c68f-1b74-43bd-81de-711eaa106124"
+            },
+            {
+              "style": 2,
+              "label": "U3",
+              "id": 4,
+              "custom_id": "MJ::JOB::upsample::3::fb52c68f-1b74-43bd-81de-711eaa106124",
+              "type": 2
+            },
+            {
+              "style": 2,
+              "label": "U4",
+              "id": 5,
+              "custom_id": "MJ::JOB::upsample::4::fb52c68f-1b74-43bd-81de-711eaa106124",
+              "type": 2
+            },
+            {
+              "id": 6,
+              "emoji": {
+                "name": "\ud83d\udd04"
+              },
+              "custom_id": "MJ::JOB::reroll::0::fb52c68f-1b74-43bd-81de-711eaa106124::SOLO",
+              "type": 2,
+              "style": 2
+            }
+          ]
+        },
+        {
+          "components": [
+            {
+              "label": "V1",
+              "id": 8,
+              "custom_id": "MJ::JOB::variation::1::fb52c68f-1b74-43bd-81de-711eaa106124",
+              "type": 2,
+              "style": 2
+            },
+            {
+              "id": 9,
+              "custom_id": "MJ::JOB::variation::2::fb52c68f-1b74-43bd-81de-711eaa106124",
+              "type": 2,
+              "style": 2,
+              "label": "V2"
+            },
+            {
+              "type": 2,
+              "style": 2,
+              "label": "V3",
+              "id": 10,
+              "custom_id": "MJ::JOB::variation::3::fb52c68f-1b74-43bd-81de-711eaa106124"
+            },
+            {
+              "type": 2,
+              "style": 2,
+              "label": "V4",
+              "id": 11,
+              "custom_id": "MJ::JOB::variation::4::fb52c68f-1b74-43bd-81de-711eaa106124"
+            },
+            {
+              "url": "https://www.midjourney.com/jobs/fb52c68f-1b74-43bd-81de-711eaa106124",
+              "type": 2,
+              "style": 5,
+              "label": "\u200b",
+              "id": 12
+            }
+          ],
+          "type": 1,
+          "id": 7
+        }
+      ],
+      "buttons": [
+        "U1",
+        "U2",
+        "U3",
+        "U4",
+        "\ud83d\udd04",
+        "V1",
+        "V2",
+        "V3",
+        "V4"
+      ],
+      "pinned": false,
+      "mention_everyone": false,
+      "author": {
+        "display_name_styles": null,
+        "collectibles": null,
+        "bot": true,
+        "avatar_decoration_data": null,
+        "avatar": "f6ce562a6b4979c4b1cbc5b436d3be76",
+        "username": "Midjourney Bot",
+        "public_flags": 589824,
+        "id": "936929561302675456",
+        "global_name": null,
+        "discriminator": "9282",
+        "clan": null,
+        "primary_guild": null
+      },
+      "imageUx": [
+        {
+          "url": "https://cdn.midjourney.com/fb52c68f-1b74-43bd-81de-711eaa106124/0_0.jpeg",
+          "id": 1
+        },
+        {
+          "id": 2,
+          "url": "https://cdn.midjourney.com/fb52c68f-1b74-43bd-81de-711eaa106124/0_1.jpeg"
+        },
+        {
+          "url": "https://cdn.midjourney.com/fb52c68f-1b74-43bd-81de-711eaa106124/0_2.jpeg",
+          "id": 3
+        },
+        {
+          "id": 4,
+          "url": "https://cdn.midjourney.com/fb52c68f-1b74-43bd-81de-711eaa106124/0_3.jpeg"
+        }
+      ],
+      "timestamp": "2025-12-18T06:31:07.049000+00:00",
+      "id": "1451099441800024138",
+      "channel_type": 1,
+      "attachments": [
+        {
+          "proxy_url": "https://media.discordapp.net/attachments/996991021718179852/1451099441112023161/fullstacklogan_A_mid-30s_man_with_medium-length_wavy_black_hair_fb52c68f-1b74-43bd-81de-711eaa106124.png?ex=6944f12a&is=69439faa&hm=9421c163df5ff4c40e99c0505d52951fc2a7fd400464fcd47524ecc7c44b4f03&",
+          "placeholder": "UggKDIIHyKd6pmiIhnl5r5f6ig==",
+          "height": 1632,
+          "filename": "fullstacklogan_A_mid-30s_man_with_medium-length_wavy_black_hair_fb52c68f-1b74-43bd-81de-711eaa106124.png",
+          "content_type": "image/png",
+          "url": "https://cdn.discordapp.com/attachments/996991021718179852/1451099441112023161/fullstacklogan_A_mid-30s_man_with_medium-length_wavy_black_hair_fb52c68f-1b74-43bd-81de-711eaa106124.png?ex=6944f12a&is=69439faa&hm=9421c163df5ff4c40e99c0505d52951fc2a7fd400464fcd47524ecc7c44b4f03&",
+          "placeholder_version": 1,
+          "id": "1451099441112023161",
+          "content_scan_version": 3,
+          "width": 2912,
+          "size": 6085931
+        }
+      ],
+      "mentions": [
+        {
+          "username": "fullstacklogan",
+          "display_name_styles": null,
+          "collectibles": null,
+          "clan": {
+            "badge": null,
+            "tag": null,
+            "identity_guild_id": null,
+            "identity_enabled": false
+          },
+          "avatar": "961821c6f3798244b354e5920c94a3cc",
+          "public_flags": 0,
+          "primary_guild": {
+            "tag": null,
+            "identity_guild_id": null,
+            "identity_enabled": false,
+            "badge": null
+          },
+          "id": "475201463816290314",
+          "global_name": "Logan",
+          "discriminator": "0",
+          "avatar_decoration_data": null
+        }
+      ],
+      "flags": 0
+    },
+    "code": 200,
+    "jobid": "j1218063037481749462i-u2163-c996991021718179852-bot:midjourney",
+    "request": {
+      "stream": false,
+      "prompt": "A mid-30s man with medium-length wavy black hair parted in the middle, sharp angular features, defined cheekbones, strong jawline, intense amber eyes, wearing a black leather jacket over a white t-shirt and blue jeans, sitting alone at a kitchen table, morning coffee steam rising, harsh fluorescent light mixing with pale dawn through a window, empty chair across the table, 35mm lens perspective, mundane domestic isolation, photorealistic detail in textures and light --ar 16:9 --v 7 --s 100 --c 9"
+    },
+    "verb": "imagine",
+    "jobType": "image"
+  },
+  {
+    "request": {
+      "stream": false,
+      "prompt": "Interior of a classic silver flying saucer, vast curved observation window revealing Earth below in brilliant blue and white, a seven-foot-tall Nordic alien with long flowing platinum blonde hair, luminous pale skin with subtle inner glow, large crystalline pale blue eyes, impossibly beautiful androgynous angular features, high cheekbones, wearing flowing silver-white robes, standing in silhouette, back to camera, soft ambient glow from control panels, contemplative atmosphere, wide shot emphasizing scale and isolation --ar 16:9 --v 7 --s 100 --c 9"
+    },
+    "jobid": "j1218062922058120985i-u2163-c996991021718179852-bot:midjourney",
+    "verb": "imagine",
+    "status": "completed",
+    "response": {
+      "channel_type": 1,
+      "flags": 0,
+      "type": 0,
+      "mention_roles": [],
+      "edited_timestamp": null,
+      "channel_id": "996991021718179852",
+      "imageUx": [
+        {
+          "url": "https://cdn.midjourney.com/cec4a740-33bd-437f-ab77-b7fecc9b29ef/0_0.jpeg",
+          "id": 1
+        },
+        {
+          "id": 2,
+          "url": "https://cdn.midjourney.com/cec4a740-33bd-437f-ab77-b7fecc9b29ef/0_1.jpeg"
+        },
+        {
+          "id": 3,
+          "url": "https://cdn.midjourney.com/cec4a740-33bd-437f-ab77-b7fecc9b29ef/0_2.jpeg"
+        },
+        {
+          "id": 4,
+          "url": "https://cdn.midjourney.com/cec4a740-33bd-437f-ab77-b7fecc9b29ef/0_3.jpeg"
+        }
+      ],
+      "content": "**Interior of a classic silver flying saucer, vast curved observation window revealing Earth below in brilliant blue and white, a seven-foot-tall Nordic alien with long flowing platinum blonde hair, luminous pale skin with subtle inner glow, large crystalline pale blue eyes, impossibly beautiful androgynous angular features, high cheekbones, wearing flowing silver-white robes, standing in silhouette, back to camera, soft ambient glow from control panels, contemplative atmosphere, wide shot emphasizing scale and isolation --ar 16:9 --v 7.0 --c 9 --p lqg2fke --raw** - <@475201463816290314> (fast)\n-# Create, explore, and organize on [midjourney.com](<https://midjourney.com/imagine?from_discord=1>)",
+      "components": [
+        {
+          "type": 1,
+          "id": 1,
+          "components": [
+            {
+              "custom_id": "MJ::JOB::upsample::1::cec4a740-33bd-437f-ab77-b7fecc9b29ef",
+              "type": 2,
+              "style": 2,
+              "label": "U1",
+              "id": 2
+            },
+            {
+              "type": 2,
+              "style": 2,
+              "label": "U2",
+              "id": 3,
+              "custom_id": "MJ::JOB::upsample::2::cec4a740-33bd-437f-ab77-b7fecc9b29ef"
+            },
+            {
+              "style": 2,
+              "label": "U3",
+              "id": 4,
+              "custom_id": "MJ::JOB::upsample::3::cec4a740-33bd-437f-ab77-b7fecc9b29ef",
+              "type": 2
+            },
+            {
+              "type": 2,
+              "style": 2,
+              "label": "U4",
+              "id": 5,
+              "custom_id": "MJ::JOB::upsample::4::cec4a740-33bd-437f-ab77-b7fecc9b29ef"
+            },
+            {
+              "id": 6,
+              "emoji": {
+                "name": "\ud83d\udd04"
+              },
+              "custom_id": "MJ::JOB::reroll::0::cec4a740-33bd-437f-ab77-b7fecc9b29ef::SOLO",
+              "type": 2,
+              "style": 2
+            }
+          ]
+        },
+        {
+          "components": [
+            {
+              "type": 2,
+              "style": 2,
+              "label": "V1",
+              "id": 8,
+              "custom_id": "MJ::JOB::variation::1::cec4a740-33bd-437f-ab77-b7fecc9b29ef"
+            },
+            {
+              "custom_id": "MJ::JOB::variation::2::cec4a740-33bd-437f-ab77-b7fecc9b29ef",
+              "type": 2,
+              "style": 2,
+              "label": "V2",
+              "id": 9
+            },
+            {
+              "custom_id": "MJ::JOB::variation::3::cec4a740-33bd-437f-ab77-b7fecc9b29ef",
+              "type": 2,
+              "style": 2,
+              "label": "V3",
+              "id": 10
+            },
+            {
+              "id": 11,
+              "custom_id": "MJ::JOB::variation::4::cec4a740-33bd-437f-ab77-b7fecc9b29ef",
+              "type": 2,
+              "style": 2,
+              "label": "V4"
+            },
+            {
+              "label": "\u200b",
+              "id": 12,
+              "url": "https://www.midjourney.com/jobs/cec4a740-33bd-437f-ab77-b7fecc9b29ef",
+              "type": 2,
+              "style": 5
+            }
+          ],
+          "type": 1,
+          "id": 7
+        }
+      ],
+      "mention_everyone": false,
+      "buttons": [
+        "U1",
+        "U2",
+        "U3",
+        "U4",
+        "\ud83d\udd04",
+        "V1",
+        "V2",
+        "V3",
+        "V4"
+      ],
+      "timestamp": "2025-12-18T06:29:52.699000+00:00",
+      "mentions": [
+        {
+          "avatar_decoration_data": null,
+          "global_name": "Logan",
+          "username": "fullstacklogan",
+          "public_flags": 0,
+          "primary_guild": {
+            "identity_guild_id": null,
+            "identity_enabled": false,
+            "badge": null,
+            "tag": null
+          },
+          "discriminator": "0",
+          "id": "475201463816290314",
+          "avatar": "961821c6f3798244b354e5920c94a3cc",
+          "display_name_styles": null,
+          "collectibles": null,
+          "clan": {
+            "identity_guild_id": null,
+            "identity_enabled": false,
+            "badge": null,
+            "tag": null
+          }
+        }
+      ],
+      "author": {
+        "avatar_decoration_data": null,
+        "global_name": null,
+        "display_name_styles": null,
+        "public_flags": 589824,
+        "id": "936929561302675456",
+        "discriminator": "9282",
+        "collectibles": null,
+        "username": "Midjourney Bot",
+        "primary_guild": null,
+        "avatar": "f6ce562a6b4979c4b1cbc5b436d3be76",
+        "clan": null,
+        "bot": true
+      },
+      "tts": false,
+      "id": "1451099129953648690",
+      "pinned": false,
+      "attachments": [
+        {
+          "filename": "fullstacklogan_Interior_of_a_classic_silver_flying_saucer_vast__cec4a740-33bd-437f-ab77-b7fecc9b29ef.png",
+          "proxy_url": "https://media.discordapp.net/attachments/996991021718179852/1451099129307599014/fullstacklogan_Interior_of_a_classic_silver_flying_saucer_vast__cec4a740-33bd-437f-ab77-b7fecc9b29ef.png?ex=6944f0e0&is=69439f60&hm=94b26c837255a3c99b4a8fcaa83907742f08afebd2db2c4beb00db6d61afa0fc&",
+          "id": "1451099129307599014",
+          "content_scan_version": 3,
+          "placeholder": "EtcFDILzVXedbFlFWngvarvAtA==",
+          "width": 2912,
+          "url": "https://cdn.discordapp.com/attachments/996991021718179852/1451099129307599014/fullstacklogan_Interior_of_a_classic_silver_flying_saucer_vast__cec4a740-33bd-437f-ab77-b7fecc9b29ef.png?ex=6944f0e0&is=69439f60&hm=94b26c837255a3c99b4a8fcaa83907742f08afebd2db2c4beb00db6d61afa0fc&",
+          "size": 7015885,
+          "placeholder_version": 1,
+          "content_type": "image/png",
+          "height": 1632
+        }
+      ],
+      "embeds": []
+    },
+    "code": 200,
+    "updated": "2025-12-18T06:29:53.110Z",
+    "jobType": "image",
+    "created": "2025-12-18T06:29:22.097Z"
+  },
+  {
+    "request": {
+      "stream": false,
+      "prompt": "A mid-30s man with medium-length wavy black hair parted in the middle, sharp angular features, defined cheekbones, strong jawline, intense amber eyes, wearing a black leather jacket over a white t-shirt and blue jeans, waking in a sparse bedroom, early morning light filtering through thin curtains, dust particles suspended in golden rays, rumpled white sheets, shallow depth of field, intimate close-up from bed level, melancholic stillness, photorealistic cinematography --ar 16:9 --v 7 --s 100 --c 9"
+    },
+    "created": "2025-12-18T06:28:24.802Z",
+    "updated": "2025-12-18T06:28:57.023Z",
+    "jobid": "j1218062824762094077i-u2163-c996991021718179852-bot:midjourney",
+    "verb": "imagine",
+    "status": "completed",
+    "response": {
+      "type": 0,
+      "timestamp": "2025-12-18T06:28:56.698000+00:00",
+      "author": {
+        "collectibles": null,
+        "clan": null,
+        "avatar_decoration_data": null,
+        "username": "Midjourney Bot",
+        "primary_guild": null,
+        "id": "936929561302675456",
+        "discriminator": "9282",
+        "avatar": "f6ce562a6b4979c4b1cbc5b436d3be76",
+        "global_name": null,
+        "display_name_styles": null,
+        "bot": true,
+        "public_flags": 589824
+      },
+      "channel_type": 1,
+      "channel_id": "996991021718179852",
+      "content": "**A mid-30s man with medium-length wavy black hair parted in the middle, sharp angular features, defined cheekbones, strong jawline, intense amber eyes, wearing a black leather jacket over a white t-shirt and blue jeans, waking in a sparse bedroom, early morning light filtering through thin curtains, dust particles suspended in golden rays, rumpled white sheets, shallow depth of field, intimate close-up from bed level, melancholic stillness, photorealistic cinematography --ar 16:9 --v 7.0 --c 9 --p lqg2fke --raw** - <@475201463816290314> (fast)\n-# Create, explore, and organize on [midjourney.com](<https://midjourney.com/imagine?from_discord=1>)",
+      "tts": false,
+      "mention_roles": [],
+      "buttons": [
+        "U1",
+        "U2",
+        "U3",
+        "U4",
+        "\ud83d\udd04",
+        "V1",
+        "V2",
+        "V3",
+        "V4"
+      ],
+      "mention_everyone": false,
+      "id": "1451098895068168244",
+      "embeds": [],
+      "mentions": [
+        {
+          "display_name_styles": null,
+          "discriminator": "0",
+          "avatar_decoration_data": null,
+          "username": "fullstacklogan",
+          "public_flags": 0,
+          "id": "475201463816290314",
+          "global_name": "Logan",
+          "primary_guild": {
+            "tag": null,
+            "identity_guild_id": null,
+            "identity_enabled": false,
+            "badge": null
+          },
+          "collectibles": null,
+          "clan": {
+            "badge": null,
+            "tag": null,
+            "identity_guild_id": null,
+            "identity_enabled": false
+          },
+          "avatar": "961821c6f3798244b354e5920c94a3cc"
+        }
+      ],
+      "flags": 0,
+      "components": [
+        {
+          "id": 1,
+          "components": [
+            {
+              "custom_id": "MJ::JOB::upsample::1::020ba8bc-c4a5-460d-9237-04e9048b5f60",
+              "type": 2,
+              "style": 2,
+              "label": "U1",
+              "id": 2
+            },
+            {
+              "type": 2,
+              "style": 2,
+              "label": "U2",
+              "id": 3,
+              "custom_id": "MJ::JOB::upsample::2::020ba8bc-c4a5-460d-9237-04e9048b5f60"
+            },
+            {
+              "type": 2,
+              "style": 2,
+              "label": "U3",
+              "id": 4,
+              "custom_id": "MJ::JOB::upsample::3::020ba8bc-c4a5-460d-9237-04e9048b5f60"
+            },
+            {
+              "style": 2,
+              "label": "U4",
+              "id": 5,
+              "custom_id": "MJ::JOB::upsample::4::020ba8bc-c4a5-460d-9237-04e9048b5f60",
+              "type": 2
+            },
+            {
+              "id": 6,
+              "emoji": {
+                "name": "\ud83d\udd04"
+              },
+              "custom_id": "MJ::JOB::reroll::0::020ba8bc-c4a5-460d-9237-04e9048b5f60::SOLO",
+              "type": 2,
+              "style": 2
+            }
+          ],
+          "type": 1
+        },
+        {
+          "type": 1,
+          "id": 7,
+          "components": [
+            {
+              "id": 8,
+              "custom_id": "MJ::JOB::variation::1::020ba8bc-c4a5-460d-9237-04e9048b5f60",
+              "type": 2,
+              "style": 2,
+              "label": "V1"
+            },
+            {
+              "style": 2,
+              "label": "V2",
+              "id": 9,
+              "custom_id": "MJ::JOB::variation::2::020ba8bc-c4a5-460d-9237-04e9048b5f60",
+              "type": 2
+            },
+            {
+              "label": "V3",
+              "id": 10,
+              "custom_id": "MJ::JOB::variation::3::020ba8bc-c4a5-460d-9237-04e9048b5f60",
+              "type": 2,
+              "style": 2
+            },
+            {
+              "custom_id": "MJ::JOB::variation::4::020ba8bc-c4a5-460d-9237-04e9048b5f60",
+              "type": 2,
+              "style": 2,
+              "label": "V4",
+              "id": 11
+            },
+            {
+              "style": 5,
+              "label": "\u200b",
+              "id": 12,
+              "url": "https://www.midjourney.com/jobs/020ba8bc-c4a5-460d-9237-04e9048b5f60",
+              "type": 2
+            }
+          ]
+        }
+      ],
+      "attachments": [
+        {
+          "size": 6035846,
+          "proxy_url": "https://media.discordapp.net/attachments/996991021718179852/1451098894577438792/fullstacklogan_A_mid-30s_man_with_medium-length_wavy_black_hair_020ba8bc-c4a5-460d-9237-04e9048b5f60.png?ex=6944f0a8&is=69439f28&hm=96f2a277a1e88db69c4c8f3fa0929328644db3455b0c2d79b1c7efeaffd01f69&",
+          "id": "1451098894577438792",
+          "placeholder_version": 1,
+          "filename": "fullstacklogan_A_mid-30s_man_with_medium-length_wavy_black_hair_020ba8bc-c4a5-460d-9237-04e9048b5f60.png",
+          "content_scan_version": 3,
+          "placeholder": "jQgGDIJUoItMZ4xninl1T2f2dQ==",
+          "content_type": "image/png",
+          "width": 2912,
+          "height": 1632,
+          "url": "https://cdn.discordapp.com/attachments/996991021718179852/1451098894577438792/fullstacklogan_A_mid-30s_man_with_medium-length_wavy_black_hair_020ba8bc-c4a5-460d-9237-04e9048b5f60.png?ex=6944f0a8&is=69439f28&hm=96f2a277a1e88db69c4c8f3fa0929328644db3455b0c2d79b1c7efeaffd01f69&"
+        }
+      ],
+      "pinned": false,
+      "imageUx": [
+        {
+          "id": 1,
+          "url": "https://cdn.midjourney.com/020ba8bc-c4a5-460d-9237-04e9048b5f60/0_0.jpeg"
+        },
+        {
+          "id": 2,
+          "url": "https://cdn.midjourney.com/020ba8bc-c4a5-460d-9237-04e9048b5f60/0_1.jpeg"
+        },
+        {
+          "id": 3,
+          "url": "https://cdn.midjourney.com/020ba8bc-c4a5-460d-9237-04e9048b5f60/0_2.jpeg"
+        },
+        {
+          "url": "https://cdn.midjourney.com/020ba8bc-c4a5-460d-9237-04e9048b5f60/0_3.jpeg",
+          "id": 4
+        }
+      ],
+      "edited_timestamp": null
+    },
+    "code": 200,
+    "jobType": "image"
+  }
+]

@@ -1,0 +1,13 @@
+[server]
+# Enable external connections
+headless = true
+enableCORS = false
+enableXsrfProtection = false
+
+# Server settings
+address = "0.0.0.0"
+port = 8501
+
+[browser]
+# Don't automatically open browser
+gatherUsageStats = false
