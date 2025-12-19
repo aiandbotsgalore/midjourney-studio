@@ -59,12 +59,10 @@ def build_prompt(base_prompt: str, params: Dict[str, Any]) -> str:
     if params.get("raw"):
         parts.append("--raw")
 
-    # Video generation
-    if params.get("video"):
-        parts.append("--video")
-        # Note: --motion and --loop are not standard Midjourney parameters 
-        # as of V6. They are often used in other models like Luma/Runway.
-        # Removing them here ensures the Midjourney API doesn't reject the prompt.
+    # Note: Video generation is now handled via button API (Animate High/Low motion)
+    # The --video parameter is deprecated as of MidJourney V1 Video Model (June 2025)
+    # Video generation requires: 1) Generate image first, 2) Use Animate button
+    # Motion parameters are passed to the button action, not the prompt
 
     # No parameters (negative prompts)
     if params.get("no"):

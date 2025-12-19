@@ -1141,31 +1141,33 @@ def render_creation_tab():
 def render_video_tab():
     """
     Dedicated tab for video-first creations.
-    Automatically appends --video to prompts and provides motion controls.
+    Uses MidJourney's Image-to-Video workflow: generates an image first, then animates it.
+    Workflow: Image generation → Animate button with motion settings.
     """
     st.markdown("## 🎥 Video Studio")
-    st.markdown("Generate cinematic video timelapses directly from your prompts.")
-    
+    st.markdown("Generate animated videos using MidJourney's Image-to-Video workflow.")
+    st.info("ℹ️ Videos are created in 2 steps: (1) Generate base image, (2) Animate with motion")
+
     # Selection of aspect ratio and motion
     col1, col2 = st.columns([3, 1])
-    
+
     # Initialize video studio prompt in session state
     if "video_studio_prompt" not in st.session_state:
         st.session_state.video_studio_prompt = ""
-        
+
     with col1:
         video_prompt = st.text_area(
             "Video Prompt",
             value=st.session_state.video_studio_prompt,
             placeholder="A cinematic drone shot of a misty fjord at dawn, soft lighting, 8k...",
             height=120,
-            help="Enter your creative vision. The --video parameter is automatically added.",
+            help="Enter your creative vision. An image will be generated first, then animated.",
             key="v_prompt_area"
         )
         # Update session state when text area changes
         if video_prompt != st.session_state.video_studio_prompt:
             st.session_state.video_studio_prompt = video_prompt
-            
+
         # Enhance Button
         enhance_col1, enhance_col2 = st.columns([1, 4])
         with enhance_col1:
@@ -1180,12 +1182,17 @@ def render_video_tab():
                         enhanced = enhance_video_prompt(video_prompt)
                         st.session_state.video_studio_prompt = enhanced
                         st.rerun()
-    
+
     with col2:
-        st.markdown("### Motion & Effects")
+        st.markdown("### Video Settings")
         v_ar = st.selectbox("Aspect Ratio", ["16:9", "9:16", "1:1", "2:3", "3:2"], index=0, key="v_ar")
-        v_motion = st.select_slider("Motion Intensity", options=["low", "medium", "high"], value="medium", key="v_motion")
-        v_loop = st.toggle("🔄 Seamless Loop", key="v_loop")
+        v_motion = st.select_slider(
+            "Motion Intensity",
+            options=["low", "medium", "high"],
+            value="medium",
+            key="v_motion",
+            help="Low = subtle movement, Medium/High = more dynamic motion"
+        )
 
     # Quick Templates for Video
     st.markdown("### 🎬 Video Templates")
@@ -1215,19 +1222,17 @@ def render_video_tab():
     # Final Prompt Construction
     prompt_base = video_prompt if video_prompt else st.session_state.get("video_studio_prompt", "")
     
-    # Parameters specifically for video
+    # Parameters for the initial image generation
+    # Note: Video is created via Animate button after image generation
     params = {
         "ar": v_ar,
         "version": v_version,
         "stylize": v_stylize,
         "chaos": v_chaos,
-        "video": True,
-        "motion": v_motion,
-        "loop": v_loop,
         "raw": v_raw,
         "no": v_no if v_no else None
     }
-    
+
     v_final_prompt = build_prompt(prompt_base, params)
     
     st.markdown("### 📝 Video Script Preview")
@@ -1237,27 +1242,27 @@ def render_video_tab():
     col1, col2, col3 = st.columns([1, 2, 1])
     with col2:
         if st.button("🎬 Create Video", width='stretch', type="primary", key="v_generate_btn"):
-            if not v_final_prompt or v_final_prompt.strip() == "--video":
+            if not v_final_prompt or v_final_prompt.strip() == "":
                 st.error("Please enter a prompt first")
             elif not st.session_state.api_token:
                 st.error("Please enter your API token in the sidebar")
             else:
-                with st.status("🎬 Directing Film...", expanded=True) as status:
+                with st.status("🎬 Creating Video (Image-to-Video)...", expanded=True) as status:
                     api = MidjourneyAPI(st.session_state.api_token)
-                    
-                    st.write("Submitting to production...")
+
+                    # Step 1: Generate the base image
+                    st.write("Step 1/2: Generating base image...")
                     code, result = api.imagine(v_final_prompt, stream=False)
-                    
+
                     if code in [200, 201]:
                         job_id = result.get("jobid")
-                        st.success(f"🎥 Film project started: `{job_id}`")
+                        st.write(f"✅ Image job created: `{job_id}`")
                         st.session_state.active_jobs[job_id] = result
-                        
-                        # Add to history as a "Video Creation"
+
+                        # Add to history
                         v_job_entry = {
                             "jobid": job_id,
                             "status": "started",
-                            "verb": "video",
                             "type": "imagine",
                             "prompt": v_final_prompt,
                             "created": datetime.now().isoformat(),
@@ -1266,27 +1271,78 @@ def render_video_tab():
                         if v_job_entry not in st.session_state.job_history:
                             st.session_state.job_history.insert(0, v_job_entry)
                             save_job_history(st.session_state.job_history)
-                        
-                        # Poll for completion
-                        st.write("⏳ Waiting for production to finish...")
-                        final_result = poll_job_status(api, job_id)
-                        
-                        if final_result.get("status") == "completed":
-                            # Update history with final result
+
+                        # Poll for image completion
+                        st.write("⏳ Waiting for image generation...")
+                        image_result = poll_job_status(api, job_id)
+
+                        if image_result.get("status") == "completed":
+                            st.write("✅ Image complete!")
+
+                            # Update history with image result
                             with state_lock:
                                 for i, job in enumerate(st.session_state.job_history):
                                     if job.get("jobid") == job_id:
-                                        # Preserve video verb
-                                        final_result["verb"] = "video"
-                                        st.session_state.job_history[i] = final_result
+                                        st.session_state.job_history[i] = image_result
                                         break
                                 save_job_history(st.session_state.job_history)
-                            st.success("✨ Video production complete!")
-                            st.rerun()
+
+                            # Step 2: Animate the image
+                            st.write(f"Step 2/2: Animating with {v_motion} motion...")
+                            motion_level = "high" if v_motion == "high" else "low"
+                            button_action = f"Animate ({'High' if motion_level == 'high' else 'Low'} motion)"
+
+                            anim_code, anim_result = api.button(job_id, button_action, stream=False)
+
+                            if anim_code in [200, 201]:
+                                video_job_id = anim_result.get("jobid")
+                                st.write(f"✅ Animation job started: `{video_job_id}`")
+
+                                # Add animation job to history
+                                video_entry = {
+                                    "jobid": video_job_id,
+                                    "status": "started",
+                                    "verb": "video",
+                                    "type": "button",
+                                    "button": button_action,
+                                    "parent_jobid": job_id,
+                                    "prompt": v_final_prompt,
+                                    "created": datetime.now().isoformat(),
+                                    "response": anim_result
+                                }
+                                st.session_state.job_history.insert(0, video_entry)
+                                save_job_history(st.session_state.job_history)
+
+                                # Poll for video completion
+                                st.write("⏳ Rendering video animation...")
+                                video_result = poll_job_status(api, video_job_id)
+
+                                if video_result.get("status") == "completed":
+                                    # Update history
+                                    with state_lock:
+                                        for i, job in enumerate(st.session_state.job_history):
+                                            if job.get("jobid") == video_job_id:
+                                                video_result["verb"] = "video"
+                                                video_result["button"] = button_action
+                                                st.session_state.job_history[i] = video_result
+                                                break
+                                        save_job_history(st.session_state.job_history)
+
+                                    status.update(label="✅ Video Complete!", state="complete")
+                                    st.success(f"🎥 Video ready: `{video_job_id}`")
+                                    st.rerun()
+                                else:
+                                    status.update(label=f"❌ Video {video_result.get('status', 'failed')}", state="error")
+                                    st.error(f"Video generation failed: {video_result.get('error', 'Unknown')}")
+                            else:
+                                status.update(label="❌ Animation Failed", state="error")
+                                st.error(f"Failed to animate: {anim_result.get('error', 'Unknown')}")
                         else:
-                            st.error(f"❌ Video production {final_result.get('status', 'failed')}")
+                            status.update(label=f"❌ Image {image_result.get('status', 'failed')}", state="error")
+                            st.error(f"Image generation failed: {image_result.get('error', 'Unknown')}")
                     else:
-                        st.error(f"❌ Production failed: {result.get('error', 'Unknown error')}")
+                        status.update(label="❌ Failed", state="error")
+                        st.error(f"Failed to start job: {result.get('error', 'Unknown error')}")
     
     st.divider()
     
@@ -1972,96 +2028,92 @@ def extract_seed(job_id: str):
 
 
 
-def trigger_video_animation_silent(api_token: str, job_data: dict) -> Optional[str]:
+def trigger_video_animation_silent(api_token: str, job_data: dict, motion: str = "high") -> Optional[str]:
     """
-    Background-safe version of video animation trigger.
+    Background-safe version of video animation trigger using button API.
     No Streamlit UI elements (st.status, st.error, etc.) used.
+
+    Args:
+        api_token: API token
+        job_data: Job data containing jobid
+        motion: "high" or "low" for motion intensity
+
+    Returns:
+        New job ID if successful, None otherwise
     """
     if not api_token:
         return None
 
-    # Extract original prompt and parameters
-    original_prompt = job_data.get("request", {}).get("prompt", "") or job_data.get("prompt", "")
-    
-    # Clean up prompt (remove existing --video if present)
-    clean_prompt = original_prompt.replace("--video", "").strip()
-    
-    # Construct new prompt with --video
-    video_prompt = f"{clean_prompt} --video"
-    
+    job_id = job_data.get("jobid")
+    if not job_id:
+        logger.error("No jobid found in job_data for animation")
+        return None
+
+    # Determine button action
+    button_action = "Animate (High motion)" if motion == "high" else "Animate (Low motion)"
+
     try:
         api = MidjourneyAPI(api_token)
-        code, result = api.imagine(video_prompt, stream=False)
-        
+        code, result = api.button(job_id, button_action, stream=False)
+
         if code in [200, 201]:
             new_job_id = result.get("jobid")
-            # We can't safely update session state here if not in main thread OR if not wrapped properly
-            # But the caller (run_autopilot_worker) handles results.
+            logger.info(f"Video animation triggered: {new_job_id} (from {job_id})")
             return new_job_id
     except Exception as e:
-        logger.exception(f"Silent animation trigger failed for job")
-    
+        logger.exception(f"Silent animation trigger failed for job {job_id}")
+
     return None
 
 
-def create_video_animation(job_id: str, job_data:dict):
+def create_video_animation(job_id: str, job_data: dict, motion: str = "high"):
     """
-    Create a video animation (timelapse) for the given job.
-    Re-runs the prompt with --video parameter and same seed.
+    Create a video animation using MidJourney's image-to-video workflow.
+
+    Uses the Animate button API to convert a completed image job into a video.
+    This is the correct workflow as of MidJourney V1 Video Model (June 2025).
+
+    Args:
+        job_id: The completed image job ID to animate
+        job_data: The job data dict
+        motion: "high" or "low" for motion intensity
     """
     if not st.session_state.api_token:
         st.error("API token required")
         return
 
-    # Extract original prompt and parameters
-    original_prompt = job_data.get("request", {}).get("prompt", "") or job_data.get("prompt", "")
-    
-    # Clean up prompt (remove existing --video if present)
-    clean_prompt = original_prompt.replace("--video", "").strip()
-    
-    # We need the seed to replicate the image exactly
-    # Try to find seed in job data or extract it
-    seed = None
-    
-    with st.status("🎥 Preparing animation...", expanded=True) as status:
+    # Determine button action based on motion preference
+    button_action = "Animate (High motion)" if motion == "high" else "Animate (Low motion)"
+
+    with st.status(f"🎥 Creating video animation ({motion} motion)...", expanded=True) as status:
         api = MidjourneyAPI(st.session_state.api_token)
-        
-        # 1. Check/Get Seed - simplified logic: try to get seed if we don't have it
-        # Ideally we'd scan job history for the seed response
-        
-        # 2. Construct new prompt with --video
-        video_prompt = f"{clean_prompt} --video"
-        
-        # Note: Without the seed, using --video will just create a NEW variation with video.
-        # This is usually what users expect if they didn't specifically set a seed.
-        # If the original job had a seed, it should be in clean_prompt if it was part of the prompt string.
-        # UseAPI/Midjourney often puts --seed in the prompt text.
-            
-        status.write(f"Submitted: {video_prompt[:50]}...")
-        
-        # 3. Submit Job
-        code, result = api.imagine(video_prompt, stream=False)
-        
+
+        status.write(f"Triggering {button_action} on image...")
+
+        # Use the button API to trigger animation
+        code, result = api.button(job_id, button_action, stream=False)
+
         if code in [200, 201]:
             new_job_id = result.get("jobid")
             st.session_state.active_jobs[new_job_id] = result
-            
+
             # Add to history immediately so it appears
             st.session_state.job_history.insert(0, {
                 "jobid": new_job_id,
                 "status": "started",
-                "type": "imagine", 
-                "prompt": video_prompt,
+                "type": "button",
+                "button": button_action,
                 "verb": "video",
+                "parent_jobid": job_id,
                 "created": datetime.now().isoformat(),
                 "response": result
             })
             save_job_history(st.session_state.job_history)
 
-            # 4. Poll for completion
-            status.write("⏳ Rendering timelapse video...")
+            # Poll for completion
+            status.write("⏳ Rendering video animation...")
             final_result = poll_job_status(api, new_job_id)
-            
+
             if final_result.get("status") == "completed":
                 # Update history with final result
                 with state_lock:
@@ -2069,18 +2121,19 @@ def create_video_animation(job_id: str, job_data:dict):
                         if job.get("jobid") == new_job_id:
                             # Preserve video verb
                             final_result["verb"] = "video"
+                            final_result["button"] = button_action
                             st.session_state.job_history[i] = final_result
                             break
                     save_job_history(st.session_state.job_history)
-                
-                status.update(label=f"✅ Animation Complete!", state="complete")
-                st.success(f"🎥 Animation ready: `{new_job_id}`")
+
+                status.update(label=f"✅ Video Animation Complete!", state="complete")
+                st.success(f"🎥 Video ready: `{new_job_id}`")
                 st.rerun()
             else:
                 status.update(label=f"❌ Animation {final_result.get('status', 'failed')}", state="error")
                 st.error(f"Animation failed: {final_result.get('error', 'Unknown')}")
         else:
-            status.update(label="❌ Submission Failed", state="error")
+            status.update(label="❌ Animation Failed", state="error")
             st.error(f"Failed to start animation: {result.get('error', 'Unknown error')}")
 
 
