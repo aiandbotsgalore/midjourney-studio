@@ -11,7 +11,7 @@ A professional, dark-themed SaaS-style GUI dashboard for the Midjourney v3 API (
 ### 🎨 Creation (Imagine)
 - Full text-to-image generation with all Midjourney parameters
 - Aspect ratio, version, stylize, chaos, quality, weird controls
-- Video generation support with motion/loop options
+- Image-to-Video generation using Animate button workflow
 - Style reference (--sref) and character reference (--cref)
 - Seed control for reproducible results
 - Quick templates for common styles
@@ -37,7 +37,8 @@ A professional, dark-themed SaaS-style GUI dashboard for the Midjourney v3 API (
 - Pan (⬅️➡️⬆️⬇️)
 - Reroll (🔄)
 - Upscale quality options (2x/4x/Subtle/Creative)
-- Video animation controls
+- **Animate (High/Low motion)** - Image-to-Video generation
+- **Extend (High/Low motion)** - Extend video duration
 
 ### ⚙️ Settings Management
 - View/modify Midjourney settings
@@ -174,6 +175,10 @@ while status not in ["completed", "failed", "moderated"]:
 3. **Use Templates**: Quick templates in the Creation tab help you get started faster
 4. **Monitor Jobs**: Use the Job Monitor tab to track all your active and completed jobs
 5. **Save Credentials**: Click "Save" in the sidebar to persist your API token
+6. **Video Generation**: Videos use a 2-step Image-to-Video workflow:
+   - First, an image is generated from your prompt
+   - Then, the "Animate" button is automatically triggered to create the video
+   - Choose between High motion (dynamic) or Low motion (subtle) animation
 
 ## ⚠️ Important Notes
 
